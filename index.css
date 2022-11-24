@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+
+
+}
+
+h1 {
+    color: aquamarine;
+    border: 2px solid black;
+}

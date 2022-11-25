@@ -1,11 +1,12 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding:0;
+   
 
 }
 body {
-    background-image: url(https://media.istockphoto.com/id/1334986663/photo/kitchen-background-interior-style-scandinavian-with-glass-jars-and-kitchen-stove.jpg?s=612x612&w=0&k=20&c=_w6fFApA2L7bck0Nsmx2-ZchF20yR3QKfHKtxb3lR3g=);
+    background-image: url(https://t4.ftcdn.net/jpg/04/43/37/07/360_F_443370711_sqHRnSIQovW6uyQ5ZwDpd4kjCG8Q6swm.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,4 +16,200 @@ h1 {
     color: red;
     text-align: center;
     border: 2px solid black;
+}
+
+
+/* box styles */
+
+
+.hover-box1 { 
+
+    background-image: url(https://www.jessicagavin.com/wp-content/uploads/2020/06/cuts-of-beef-12.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 120px;
+  
+
+    transition: all ease 0.2s;
+    box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+    -webkit-box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+    -moz-box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+   
+}
+
+.hover-box1 .content {
+
+    min-height: 400px;
+    padding: 40px;
+    color:black;
+
+}
+
+.hover-box1 .overlay {
+    background: rgb(227,180,180);
+    background: linear-gradient(180deg, rgba(227,180,180,0.5466561624649859) 16%, rgba(208,125,129,0.5606617647058824) 75%);
+    border-radius: 120px;
+
+
+}
+.hover-box1:hover{
+
+        transform: translateY(-20px);
+}
+/* box 2 */
+
+.hover-box2 { 
+
+    background-image: url(https://poultry.mystagingwebsite.com/wp-content/uploads/2019/02/shutterstock_531404539-1024x684.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 120px;
+   
+    
+    
+   
+
+    transition: all ease 0.2s;
+    box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+    -webkit-box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+    -moz-box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+   
+}
+
+.hover-box2 .content {
+
+    min-height: 400px;
+    padding: 40px;
+    color:black;
+    
+
+}
+
+.hover-box2 .overlay {
+    background: rgb(215,214,205);
+    background: linear-gradient(180deg, rgba(215,214,205,0.5270483193277311) 3%, rgba(208,143,144,0.5606617647058824) 100%);
+    border-radius: 120px;
+
+
+}
+.hover-box2:hover{
+
+        transform: translateY(-20px);
+}
+
+
+.hover-box3 { 
+
+    background-image: url(https://img.freepik.com/free-photo/healthy-vegetables-wooden-table_1150-38014.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 120px;
+  
+
+    transition: all ease 0.2s;
+    box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+    -webkit-box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+    -moz-box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+   
+}
+
+.hover-box3 .content {
+
+    min-height: 400px;
+    padding: 40px;
+    color:black;
+
+}
+
+.hover-box3 .overlay {
+    background: rgb(205,215,206);
+    background: linear-gradient(180deg, rgba(205,215,206,0.5466561624649859) 7%, rgba(143,208,166,0.5606617647058824) 68%);
+    border-radius: 120px;
+
+
+}
+.hover-box3:hover{
+
+        transform: translateY(-20px);
+
+
+}
+
+.hover-box4 { 
+
+    background-image: url(https://www.knorr.com/content/dam/unilever/knorr_world/philippines/photography_and_pictures/an_assortment_of_different_cuts_of_pork_with_a_bottle_of_olive_oil_and_herbs_as_decorations-79600683-jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 120px;
+  
+
+    transition: all ease 0.2s;
+    box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+    -webkit-box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+    -moz-box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+   
+}
+
+.hover-box4 .content {
+
+    min-height: 400px;
+    padding: 40px;
+    color:black;
+
+}
+
+.hover-box4 .overlay {
+    background: rgb(205,215,206);
+    background: linear-gradient(180deg, rgba(205,215,206,0.5466561624649859) 22%, rgba(208,125,129,0.5606617647058824) 66%);
+    border-radius: 120px;
+
+
+}
+.hover-box4:hover{
+
+        transform: translateY(-20px);
+
+
+}
+
+.hover-box5 { 
+
+    background-image: url(https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/vleff2sg7clk9kizo6qr.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 120px;
+  
+
+    transition: all ease 0.2s;
+    box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+    -webkit-box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+    -moz-box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+   
+}
+
+.hover-box5 .content {
+
+    min-height: 400px;
+    padding: 40px;
+    color:black;
+
+}
+
+.hover-box5 .overlay {
+    background: rgb(205,215,206);
+    background: linear-gradient(180deg, rgba(205,215,206,0.5466561624649859) 22%, rgba(208,125,129,0.5606617647058824) 98%);
+    border-radius: 120px;
+
+
+}
+.hover-box5:hover{
+
+        transform: translateY(-20px);
+
+
 }

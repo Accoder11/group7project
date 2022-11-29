@@ -9,7 +9,9 @@
 }
 body {
     background-image: url(https://cdn.wallpapersafari.com/12/51/YWV06R.jpg);
-
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .banner-image {

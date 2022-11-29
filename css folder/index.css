@@ -36,7 +36,7 @@ h1 {
    
 }
 
-.hover-box1 .content{
+.hover-box1 .content, .image .content {
 
     min-height: 400px;
     padding: 40px;
@@ -44,7 +44,7 @@ h1 {
 
 }
 
-.hover-box1 .overlay{
+.hover-box1 .overlay, .image .overlay {
     background: rgb(227,180,180);
     background: linear-gradient(180deg, rgba(227,180,180,0.2) 16%, rgba(208,125,129,0.2) 75%);
     border-radius: 120px;
@@ -237,3 +237,4 @@ h1 {
 
         transform: translateY(-20px);
 }
+

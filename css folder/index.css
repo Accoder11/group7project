@@ -30,7 +30,7 @@ h1 {
   
 
     transition: all ease 0.2s;
-    box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+    box-shadow: -16px 26px 45px -16px #02010171;
     -webkit-box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
     -moz-box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
    
@@ -44,7 +44,7 @@ h1 {
 
 }
 
-.hover-box1 .overlay, .image .overlay {
+.hover-box1 .overlay, .image .overlay{
     background: rgb(227,180,180);
     background: linear-gradient(180deg, rgba(227,180,180,0.2) 16%, rgba(208,125,129,0.2) 75%);
     border-radius: 120px;
@@ -238,3 +238,44 @@ h1 {
         transform: translateY(-20px);
 }
 
+/* About Us */
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+    .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+    
+    .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+    
+    .flip-card-front {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    .flip-card-back {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+    }

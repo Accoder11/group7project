@@ -20,36 +20,36 @@
     <link rel="stylesheet" href="./css folder/index.css" />
   </head>
   <body>
+
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark ">
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREeEFKCZ1ffjY7ETgO1DukqTvem3Da12TgOw&usqp=CAU"
-            alt="sample logo"
-            style="width: 40px"
-            class="rounded-pill"
-          />
           Group 7 Project</a
         >
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
-          aria-label="Toggle navigation"
+          aria-label="Toggle Navbar"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html"
                 >Home</a
               >
             </li>
-
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -80,14 +80,26 @@
                 <li>
                   <a class="dropdown-item" href="fish.html">Fish Recipe</a>
                 </li>
+                <li>
+                  <a class="dropdown-item" href="desserts.html">Desserts</a>
+                </li>
               </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
             </li>
 
             <li class="nav-item">
               <a class="nav-link" href="About Us.html">About Us</a>
             </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="Contactus.html">Contact Us</a>
+            </li>
           </ul>
         </div>
+
       </div>
     </nav>
 
@@ -99,12 +111,35 @@
                 <!-- -->
                 <div class="hover-box1">
 
+        </div>
+        </nav>
 
+
+        <!-- Banner Image -->
+        <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+          <div class="content text-center">
+            <h1 class="text-white">Recipe Blog</h1>
+          </div>
+        </div>
+
+
+        <header class="text-center py-5 col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto">
+          <h1 class="display-3 fw-bold mb-3">My Cuisine</h1>
+          <p class="text-muted lead mb-0">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quo vitae
+            quas officia, aut dolores voluptatibus recusandae temporibus rerum
+            corrupti adipisci eveniet vero! Quaerat obcaecati accusantium
+            perferendis repellat consequuntur veniam.
+          </p>
+        </header>
+<!-- div starts here -->
+  <div class="container my-5 py-5 ">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-4 col-md-10" >
+
+                <div class="hover-box1">
                     <a href="beef.html" class="text-decoration-none">
-                        <!--  -->
-                        <div class="overlay">
-
-
+                       <div class="overlay">
                           <div class="d-flex flex-column content">
 
                               <h3 class="flex-grow-1"> BEEF </h3>
@@ -200,8 +235,6 @@
                       </div>
                   </a>
               </div>
-
-    
           </div>
 
           <!-- box 5 -->
@@ -262,6 +295,31 @@
 
           </div>
 
+        <!-- box 6 -->
+        <div class="col-12 col-lg-4">
+          <!-- -->
+          <div class="hover-box6">
+
+              <a href="desserts.html" class="text-decoration-none">
+                  <!--  -->
+                  <div class="overlay">
+
+
+                    <div class="d-flex flex-column content">
+
+                        <h3 class="flex-grow-1"> Desserts </h3>
+                            <div class="d-lg-block d-none">
+                              <p>Recipes of three major group of islands in the Philippines</p>
+                            
+                              <span>click to see more <i class="bi bi-arrow-right-square-fill"></i></span>
+                              
+                            </div>
+                    </div>
+                  </div>
+              </a>
+          </div>
+      </div>
+
     <!-- Javascript po ito -->
 
     <script
@@ -269,5 +327,6 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <script src="project.js"></script>
   </body>
 </html>

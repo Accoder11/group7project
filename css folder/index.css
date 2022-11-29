@@ -2,11 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding:0;
+    font-family: 'Nerko One', cursive;
    
 
 }
 body {
-    background-image: url(https://t4.ftcdn.net/jpg/04/43/37/07/360_F_443370711_sqHRnSIQovW6uyQ5ZwDpd4kjCG8Q6swm.jpg);
+    background-image: url(https://cdn.wallpapersafari.com/12/51/YWV06R.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -212,4 +213,48 @@ h1 {
         transform: translateY(-20px);
 
 
+}
+
+.hover-box6 { 
+
+    background-image: url(https://www.chatelaine.com/wp-content/uploads/2021/07/Filipino-desserts_1280x960.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 120px;
+  
+
+    transition: all ease 0.2s;
+    box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+    -webkit-box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+    -moz-box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+   
+}
+
+.hover-box6 .content {
+
+    min-height: 400px;
+    padding: 40px;
+    color:black;
+
+}
+
+.hover-box6 .overlay {
+    background: rgb(186,227,180);
+    background: linear-gradient(180deg, rgba(186,227,180,0.7847514005602241) 16%, rgba(208,207,125,0.5606617647058824) 75%);
+    border-radius: 120px;
+
+
+}
+.hover-box6:hover{
+
+        transform: translateY(-20px);
+
+
+}
+
+iframe {
+
+    margin: 100px;
+   
 }

@@ -2,12 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding:0;
-
     font-family: 'Nerko One', cursive;
-   
-
 }
+
 body {
+
     background-image: url(https://cdn.wallpapersafari.com/12/51/YWV06R.jpg);
     background-size: cover;
     background-position: center;
@@ -16,18 +15,25 @@ body {
 
 .banner-image {
     background-image: url(https://cdn.wallpapersafari.com/12/51/YWV06R.jpg);
-
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-
 h1 {
-    color: red;
+
+    border-bottom: solid 2px #B88C46;
     text-align: center;
+    color: burlywood;
 }
 
+h2, h3, h4{
+    color: goldenrod;
+}
+
+p, h5 {
+    color: white;
+}
 
 /* box styles */
 
@@ -250,8 +256,6 @@ h1 {
 }
 
 
-}
-
 .hover-box6 { 
 
     background-image: url(https://www.chatelaine.com/wp-content/uploads/2021/07/Filipino-desserts_1280x960.jpg);
@@ -299,23 +303,7 @@ iframe {
 /*from chicken.css file*/
 
 
-h1 {
 
-    border-bottom: solid 2px #B88C46;
-   text-align: center;
-   color: burlywood;
-}
-
-body {
-
-    background-image: url(https://cdn.wallpapersafari.com/12/51/YWV06R.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0;
-    
-    
-}
 
 .pinikpikan {
     
@@ -395,16 +383,12 @@ body {
     box-shadow: -18px 19px 20px 1px rgba(0,0,0,1);
     -webkit-box-shadow: -18px 19px 20px 1px rgba(0,0,0,1);
     -moz-box-shadow: -18px 19px 20px 1px rgba(0,0,0,1);
-    
-
 
 }
 
 .inasal h3 {
 
     color: goldenrod;
-    
-   
 
 }
 .inasal h4 {

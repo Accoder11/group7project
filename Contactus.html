@@ -106,7 +106,7 @@
               <a class="nav-link" href="Contactus.html">Contact Us</a>
             </li>
             <li class="nav-item">
-              <form class="d-flex mx-2" role="search" action="action_page.php">
+              <form class="d-flex mx-2" role="search" action="#">
                 <input
                   class="form-control me-2"
                   type="search"
@@ -131,9 +131,9 @@
 
     <!-- Contact Form -->
 
-    <div class="container py-5 col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto">
+    <div class="container py-5 col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto mt-3">
       <div class="row g-2 p-3 justify-content-center">
-        <div class="col-6 col-md-6 bg-light p-3">
+        <div class="col-5 col-md-6 bg-light p-3">
           <form>
             <!-- Name input -->
             <div class="form-outline mb-4">
@@ -157,6 +157,28 @@
               <label class="form-label" for="form4Example2"
                 >Email address</label
               >
+            </div>
+
+            <div class="form-group mb-4">
+              <label for="exampleFormControlFile1"
+                >Please, share us your own recipe</label
+              >
+              <div class="form-outline mb-4">
+                <input
+                  type="email"
+                  id="form4Example2"
+                  class="form-control"
+                  required
+                />
+                <label class="form-label" for="form4Example2"
+                  >Recipe Name</label
+                >
+              </div>
+              <input
+                type="file"
+                class="form-control-file"
+                id="exampleFormControlFile1"
+              />
             </div>
 
             <!-- Message input -->
@@ -191,17 +213,67 @@
         </div>
       </div>
     </div>
+
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
     <!-- Footer -->
     <footer
-      class="container-fluid mt-5 text-center text-white"
-      style="background-color: #121111"
+      class="container-fluid mt-5 text-center text-white bg-dark"
     >
       <!-- Grid container -->
       <div class="container p-4">
         <!-- Section: Social media -->
-        <section class="mb-4">
+        <section class="row row-cols-3 mb-4">
+          <div class="col-4">
+            <h3 class="display-3">Ready to cook?</h3>
+            <h4 class="pt-2">Sign up for our weekly newsletters!
+            </h4>
+            <section>
+              <form class="border border-black p-3">
+                <!-- Name input -->
+                <div class="form-outline mb-4">
+                  <input type="text" id="form5Example1" class="form-control" />
+                  <label class="form-label" for="form5Example1">Name</label>
+                </div>
+              
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="form5Example2" class="form-control" />
+                  <label class="form-label" for="form5Example2">Email address</label>
+                </div>
+              
+                <!-- Checkbox -->
+                <div class="form-check d-flex justify-content-center mb-4">
+                  <input class="form-check-input me-2" type="checkbox" value="" id="form5Example3" checked />
+                  <label class="form-check-label" for="form5Example3">
+                    I have read and agree to the terms
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block mb-4">Subscribe</button>
+              </form>
+        </section>
+          </div>
+        
+          
+        <!-- Section: Social media -->
+          
+          <div class="col-4 d-flex justify-content-center"> 
+              <section>
+                <h4>Useful Links</h4>
+                <ul>
+                  
+                  <li><a href="fish.html">Fish Recipes</a> </li>
+                  <li><a href="beef.html">Beef Recipes</a> </li>
+                  <li><a href="pork.html">Pork Recipes</a> </li>
+                  <li><a href="fish.html">Chicken Recipes</a> </li>
+                  <li><a href="vegetable.html">Vegetables Recipes</a> </li>
+                  <li><a href="desserts.html">Desserts Recipes</a> </li>
+                  
+                </ul>
+              </section>
+            </div>
+            <div class="col-4">
+                <h4>LET’S BE FRIENDS!</h4>
           <!-- Facebook -->
           <a
             class="btn btn-primary btn-floating m-1"
@@ -260,59 +332,33 @@
             role="button"
             ><i class="fab fa-github"></i
           ></a>
+          <ul class="my-5">
+            <li><a href="About Us.html">About Us</a> </li>
+            <li><a href="Contactus.html">Contact Us</a> </li>
+            <li><a href="privacy.html"> Privacy Policy</h4></a></li>
+            <li><a href="terms.html">Terms and Condition</h4></a></li>
+          </ul>
+         
         </section>
-        <!-- Section: Social media -->
-
-        <!-- Section: Form -->
-        <section class="">
-          <form action="">
-            <!--Grid row-->
-            <div class="row d-flex justify-content-center">
-              <!--Grid column-->
-              <div class="col-auto">
-                <p class="pt-2">
-                  <strong>Sign up for our newsletter</strong>
-                </p>
-              </div>
-              <!--Grid column-->
-
-              <!--Grid column-->
-              <div class="col-md-5 col-12">
-                <!-- Email input -->
-                <div class="form-outline form-white mb-4">
-                  <input type="email" id="form5Example2" class="form-control" />
-                  <label class="form-label" for="form5Example2"
-                    >Email address</label
-                  >
-                </div>
-              </div>
-              <!--Grid column-->
-
-              <!--Grid column-->
-              <div class="col-auto">
-                <!-- Submit button -->
-                <button type="submit" class="btn btn-outline-light mb-4">
-                  Subscribe
-                </button>
-              </div>
-              <!--Grid column-->
-            </div>
-            <!--Grid row-->
-          </form>
-        </section>
-        <!-- Section: Form -->
+        
       </div>
-      <!-- Grid container -->
+    </div>
+      
+          
 
       <!-- Copyright -->
       <div
         class="text-center p-3"
-        style="background-color: rgba(78, 76, 76, 0.2)"
+        style="background-color: rgba(78, 76, 76, 0.3)"
       >
-        © 2022 Copyright:
-        <a class="text-white" href="index.html#home">KodegoPh Group 7</a>
+       &copy;2022 Copyright:
+        <a class="text-white" href="index.html"
+          >KodegoPh Group 7</a
+        >
       </div>
+      <!-- Copyright -->
     </footer>
+    <!-- Footer -->
 
     <!-- Javascript po ito -->
 

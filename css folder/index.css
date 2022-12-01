@@ -2,21 +2,38 @@
     box-sizing: border-box;
     margin: 0;
     padding:0;
+    font-family: 'Nerko One', cursive;
 }
 
-.banner-image {
-    background-image: url(https://t4.ftcdn.net/jpg/04/43/37/07/360_F_443370711_sqHRnSIQovW6uyQ5ZwDpd4kjCG8Q6swm.jpg);
+body {
+
+    background-image: url(https://cdn.wallpapersafari.com/12/51/YWV06R.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-
-h1 {
-    color: red;
-    text-align: center;
+.banner-image {
+    background-image: url(https://cdn.wallpapersafari.com/12/51/YWV06R.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
+h1 {
+
+    border-bottom: solid 2px #B88C46;
+    text-align: center;
+    color: burlywood;
+}
+
+h2, h3, h4{
+    color: goldenrod;
+}
+
+p, h5 {
+    color: white;
+}
 
 /* box styles */
 
@@ -238,6 +255,241 @@ h1 {
         transform: translateY(-20px);
 }
 
+
+.hover-box6 { 
+
+    background-image: url(https://www.chatelaine.com/wp-content/uploads/2021/07/Filipino-desserts_1280x960.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 120px;
+  
+
+    transition: all ease 0.2s;
+    box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+    -webkit-box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+    -moz-box-shadow: -16px 26px 45px -16px rgba(0,0,0,0.53);
+   
+}
+
+.hover-box6 .content {
+
+    min-height: 400px;
+    padding: 40px;
+    color:black;
+
+}
+
+.hover-box6 .overlay {
+    background: rgb(186,227,180);
+    background: linear-gradient(180deg, rgba(186,227,180,0.7847514005602241) 16%, rgba(208,207,125,0.5606617647058824) 75%);
+    border-radius: 120px;
+
+
+}
+.hover-box6:hover{
+
+        transform: translateY(-20px);
+
+
+}
+
+iframe {
+
+    margin: 100px;
+   
+}
+
+/*from chicken.css file*/
+
+
+
+
+.pinikpikan {
+    
+    justify-content: space-between;
+    padding: 40px;
+    display: flex;
+    border-bottom: #B88C46 solid 2px;
+   
+    
+    
+}
+
+
+.pinikpikan h3  {
+    color: goldenrod;
+    padding-bottom: 20px;
+     
+}
+.pinikpikan h4 {
+
+    color: goldenrod;
+    padding-bottom: 20px;
+}
+
+.pinikpikan div img {
+
+    border-radius: 50px;
+    height: 500px;
+    width: 500px;
+    margin-left: 50px;
+
+    box-shadow: 18px 19px 20px 1px rgba(0,0,0,1);
+    -webkit-box-shadow: 18px 19px 20px 1px rgba(0,0,0,1);
+    -moz-box-shadow: 18px 19px 20px 1px rgba(0,0,0,1);
+    
+
+}
+
+.pinikpikan p {
+    color:burlywood;
+    font-size: 15px;
+   
+    
+}
+.pinikpikan ul {
+
+    color: #B88C46;
+    margin-top: 20px;
+ 
+    list-style: none;
+}
+.pinikpikan iframe {
+
+        height: 400px;
+        width: 600px;
+        border-radius: 20px;
+
+}
+/* inasal */
+
+.inasal {
+    justify-content: space-between;
+    padding: 40px;
+    display: flex;
+    border-bottom: #B88C46 solid 2px;
+
+
+}
+
+.inasal div img {
+
+    border-radius: 50px;
+    height: 500px;
+    width: 500px;
+    margin-right: 50px;
+
+    box-shadow: -18px 19px 20px 1px rgba(0,0,0,1);
+    -webkit-box-shadow: -18px 19px 20px 1px rgba(0,0,0,1);
+    -moz-box-shadow: -18px 19px 20px 1px rgba(0,0,0,1);
+
+}
+
+.inasal h3 {
+
+    color: goldenrod;
+
+}
+.inasal h4 {
+
+    color: goldenrod;
+    padding-bottom: 20px;
+
+}
+
+.inasal p {
+
+    color:burlywood;
+    margin-left: 20px;
+    
+}
+
+.inasal ul {
+
+    color: #B88C46;
+    list-style: none;
+    margin-top: 20px;
+   
+
+
+}
+.inasal iframe {
+
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;
+
+
+}
+
+
+/* pastel */
+
+
+.pastil {
+
+    justify-content: space-between;
+    padding: 40px;
+    display: flex;
+    border-bottom: #B88C46 solid 2px;
+
+}
+.pastil h3 {
+    
+    color: goldenrod;
+    padding: 0px 0px 20px 20px ;
+   
+
+    
+
+}
+
+.pastil h4 {
+
+    color: goldenrod;
+    padding-bottom: 20px;
+
+
+}
+
+.pastil div img {
+
+    border-radius: 50px;
+    height: 500px;
+    width: 500px;
+    margin-left: 50px;
+
+    box-shadow: 18px 19px 20px 1px rgba(0,0,0,1);
+    -webkit-box-shadow: 18px 19px 20px 1px rgba(0,0,0,1);
+    -moz-box-shadow: 18px 19px 20px 1px rgba(0,0,0,1);
+    
+
+}
+
+.pastil p {
+
+    color:burlywood;
+    margin-left: 20px;
+    
+
+}
+.pastil ul {
+
+    color: #B88C46;
+    list-style: none;
+    margin-top: 20px;
+
+
+
+}
+.pastil iframe {
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;
+   
+}
+
 /* About Us */
 
 .flip-card {
@@ -279,3 +531,5 @@ h1 {
         color: white;
         transform: rotateY(180deg);
     }
+
+

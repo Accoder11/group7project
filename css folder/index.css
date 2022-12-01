@@ -8,7 +8,7 @@
 
 }
 body {
-    background-image: url(https://cdn.wallpapersafari.com/12/51/YWV06R.jpg);
+    /* background-image: url(https://cdn.wallpapersafari.com/12/51/YWV06R.jpg); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -250,7 +250,7 @@ h1 {
 }
 
 
-}
+
 
 .hover-box6 { 
 
@@ -302,13 +302,15 @@ iframe {
 h1 {
 
     border-bottom: solid 2px #B88C46;
-   text-align: center;
    color: burlywood;
+   display: flex;
+  
+
 }
 
 body {
 
-    background-image: url(https://cdn.wallpapersafari.com/12/51/YWV06R.jpg);
+     background-image: url(https://cdn.wallpapersafari.com/12/51/YWV06R.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -340,7 +342,7 @@ body {
     padding-bottom: 20px;
 }
 
-.pinikpikan div img {
+.container  div img {
 
     border-radius: 50px;
     height: 500px;
@@ -367,7 +369,7 @@ body {
  
     list-style: none;
 }
-.pinikpikan iframe {
+.pinikpikan  iframe {
 
         height: 400px;
         width: 600px;

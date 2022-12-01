@@ -208,7 +208,7 @@ iframe {
 
 /* SAMPLE RATING FORM */
 
-/* @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 .rating-form{
   position: relative;
   width: 500px;
@@ -244,13 +244,13 @@ iframe {
 .rating-form .star-widget input{
   display: none;
 }
-/* .star-widget label{
+.star-widget label{
   font-size: 40px;
   color: #444;
   padding: 20px;
   float: right;
   transition: all 0.2s ease;
-} */
+} 
 input:not(:checked) ~ label:hover,
 input:not(:checked) ~ label:hover ~ label{
   color: #fd4;
@@ -331,7 +331,7 @@ form header{
 }
 .rating-form .btn button:hover{
   background: white;
-} */
+} 
 
 
 

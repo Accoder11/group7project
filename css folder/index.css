@@ -3,21 +3,9 @@
     margin: 0;
     padding:0;
     font-family: 'Nerko One', cursive;
-
-   
-
-}
-body {
-    /* background-image: url(https://cdn.wallpapersafari.com/12/51/YWV06R.jpg); */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
 }
 
 body, .banner-image {
-
-
     background-image: url(https://cdn.wallpapersafari.com/12/51/YWV06R.jpg);
     background-size: cover;
     background-position: center;
@@ -120,12 +108,8 @@ p, h5 {
 
 }
 .hover-box6:hover{
-
-        transform: translateY(-20px);
+       transform: translateY(-20px);
 }
-
-
-
 
 .hover-box6 { 
 

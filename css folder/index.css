@@ -213,7 +213,7 @@ iframe {
   position: relative;
   width: 400px;
   background: #111;
-  padding: 15px 25px;
+  padding: 10px 20px;
   border: 1px solid #444;
   border-radius: 5px;
   display: flex;
@@ -225,7 +225,7 @@ iframe {
   display: none;
 }
 .rating-form .text{
-  font-size: 25px;
+  font-size: 20px;
   color: #666;
   font-weight: 500;
 }
@@ -247,7 +247,7 @@ iframe {
 .star-widget label{
   font-size: 40px;
   color: #444;
-  padding: 15px;
+  padding: 10px;
   float: right;
   transition: all 0.2s ease;
 } 

@@ -35,22 +35,32 @@ body {
     background-repeat: no-repeat;
 
 }
+
+// from chicken.css file
+// FONT COLOR, FONT SIZE, FONT STYLE
+
 h1 {
     text-align: center;
     color: burlywood;
 }
 
-/*from chicken.css file*/
-h1 {
-   
-   color: burlywood;
-  
+h2, h3, h4{
+    color: goldenrod;
+    padding: 20px;
 }
+
+p, h5 {
+    color: white;
+}
+
 .title h2 {
     text-align: center;
     justify-content: center;
     border-bottom: #B88C46 solid 2px;
 }
+
+// 1ST RECIPE 
+
 .pinikpikan {
     
     justify-content: space-between;
@@ -110,19 +120,7 @@ box-shadow: 1px 4px 41px 12px rgba(0,0,0,0.51);
 }
 
 
-h1 {
-    text-align: center;
-    color: burlywood;
-}
 
-h2, h3, h4{
-    color: goldenrod;
-    padding: 20px;
-}
-
-p, h5 {
-    color: white;
-}
 
 /* Front Page Picture Boxes */
 

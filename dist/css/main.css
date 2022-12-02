@@ -20,9 +20,13 @@ h1 {
   color: burlywood;
 }
 
-/*from chicken.css file*/
-h1 {
-  color: burlywood;
+h2, h3, h4 {
+  color: goldenrod;
+  padding: 20px;
+}
+
+p, h5 {
+  color: white;
 }
 
 .title h2 {
@@ -88,20 +92,6 @@ div ul iframe {
   text-align: center;
   justify-content: center;
   margin-top: 100px;
-}
-
-h1 {
-  text-align: center;
-  color: burlywood;
-}
-
-h2, h3, h4 {
-  color: goldenrod;
-  padding: 20px;
-}
-
-p, h5 {
-  color: white;
 }
 
 /* Front Page Picture Boxes */
@@ -279,6 +269,12 @@ iframe {
   text-align: center;
   justify-content: center;
   margin-top: 100px;
+}
+
+nav img {
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
 }
 
 /* FRONT PAGE TITLE ANIMATION */

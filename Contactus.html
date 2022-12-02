@@ -131,32 +131,34 @@
 
     <!-- Contact Form -->
 
-    <div class="container py-5 col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto mt-3">
+    <div class="container py-3 col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto ">
       <div class="row g-2 p-3 justify-content-center">
         <div class="col-5 col-md-6 bg-light p-3">
-          <form>
+          <h4 class="text-center">Your email address will not be published with your comments.</h4>
+          <form name="formValidation" id="formValidation" action="Contactus.html">
             <!-- Name input -->
             <div class="form-outline mb-4">
               <input
                 type="text"
-                id="form4Example1"
+                name="name"
+                id="formValidation"
                 class="form-control"
                 required
               />
-              <label class="form-label" for="form4Example1">Name</label>
+              <label class="form-label" for="name">Name<span>*</span></label>
             </div>
 
             <!-- Email input -->
             <div class="form-outline mb-4">
               <input
                 type="email"
+                name="email"
                 id="form4Example2"
                 class="form-control"
                 required
               />
-              <label class="form-label" for="form4Example2"
-                >Email address</label
-              >
+              <label class="form-label" for="email"
+                >Email address<span>*</span></label>
             </div>
 
             <div class="form-group mb-4">
@@ -165,13 +167,14 @@
               >
               <div class="form-outline mb-4">
                 <input
-                  type="email"
-                  id="form4Example2"
+                  type="text" 
+                  name="recipe" 
+                  id="formValidation"
                   class="form-control"
                   required
                 />
-                <label class="form-label" for="form4Example2"
-                  >Recipe Name</label
+                <label class="form-label" for="recipe"
+                  >Recipe Name<span>*</span></label
                 >
               </div>
               <input
@@ -185,10 +188,11 @@
             <div class="form-outline mb-4">
               <textarea
                 class="form-control"
-                id="form4Example3"
+                id="formValidation"
+                name="formMessage"
                 rows="4"
               ></textarea>
-              <label class="form-label" for="form4Example3">Message</label>
+              <label class="form-label" for="formMessage">Message</label>
             </div>
 
             <!-- Checkbox -->
@@ -362,7 +366,9 @@
 
     <!-- Javascript po ito -->
 
-    <script
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+      <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"

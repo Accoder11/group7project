@@ -211,7 +211,7 @@ iframe {
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 .rating-form{
   position: relative;
-  width: 500px;
+  width: 400px;
   background: #111;
   padding: 15px 25px;
   border: 1px solid #444;
@@ -247,7 +247,7 @@ iframe {
 .star-widget label{
   font-size: 40px;
   color: #444;
-  padding: 20px;
+  padding: 15px;
   float: right;
   transition: all 0.2s ease;
 } 

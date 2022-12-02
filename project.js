@@ -8,6 +8,7 @@ window.addEventListener('scroll', function() {
     }
 });
 
+
 // sample rating form
 
 const btn = document.querySelector("button");
@@ -24,33 +25,3 @@ btn.onclick = ()=>{
   return false;
 }
 
-// sample contact us form
-
-$("#formValidation").validate({
-    rules:{
-      name:{
-        minlength: 2
-      },
-      email:{
-        email:true
-      },
-      phone: {
-        number:true,
-        minlength: 10,
-        maxlength: 15
-      }
-    },
-  messages: {
-    name: {
-      required: "Please enter your name",
-    minlength: "Name at least 2 characters"
-    },
-    email: "Please enter your email",
-    phone: "Please enter your phone",
-    formMessage: "Please enter your message"
-  },
-
-  submitHandler: function(form) {
-    form.submit();
-  }
- });

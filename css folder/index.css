@@ -2,13 +2,14 @@
     box-sizing: border-box;
     margin: 0;
     padding:0;
-    font-family: 'Nerko One', cursive;
+    font-family: 'Arvo', serif;
+    letter-spacing: 1px;
 
    
 
 }
 body {
-    /* background-image: url(https://cdn.wallpapersafari.com/12/51/YWV06R.jpg); */
+     background-image: url(https://img.freepik.com/premium-photo/empty-top-marble-counter-table-kitchen-room_67155-1930.jpg?w=1380); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,7 +27,7 @@ body, .banner-image {
 
 h1 {
 
-    border-bottom: solid 2px #B88C46;
+  
     text-align: center;
     color: burlywood;
 }
@@ -165,20 +166,15 @@ p, h5 {
 
 }
 
-iframe {
-
-    margin: 100px;
-   
-}
 
 /*from chicken.css file*/
 
 
 h1 {
 
-    border-bottom: solid 2px #B88C46;
+   
    color: burlywood;
-   display: flex;
+  
   
 
 }
@@ -194,15 +190,24 @@ body {
     
 }
 
+.title h2 {
+
+    text-align: center;
+    justify-content: center;
+    border-bottom: #B88C46 solid 2px;
+}
+
 .pinikpikan {
     
     justify-content: space-between;
     padding: 40px;
+    border-bottom: 2px #B88C46 solid;
+    text-align: center;
+    justify-content: center;
+   
 
-.row {
-
-    display: flex;
 }
+
 
 
 
@@ -214,7 +219,7 @@ body {
 .pinikpikan h4 {
 
     color: goldenrod;
-    padding-bottom: 20px;
+   
 }
 
 .container  div img {
@@ -222,7 +227,7 @@ body {
     border-radius: 50px;
     height: 500px;
     width: 500px;
-    margin-left: 50px;
+    
 
     box-shadow: 18px 19px 20px 1px rgba(0,0,0,1);
     -webkit-box-shadow: 18px 19px 20px 1px rgba(0,0,0,1);
@@ -234,13 +239,16 @@ body {
 .pinikpikan p {
     color:burlywood;
     font-size: 15px;
+ 
+    
    
     
 }
 .pinikpikan ul {
 
     color: #B88C46;
-    margin-top: 20px;
+    margin:20px;
+   
  
     list-style: none;
 }
@@ -250,6 +258,11 @@ body {
         width: 600px;
         border-radius: 20px;
 
+}
+
+.pinikpikan .map {
+
+    width: fit-content;
 }
 /* inasal */
 
@@ -269,15 +282,6 @@ body {
     width: 500px;
     margin-right: 50px;
 
-
-img {
-
-    border-radius: 50px;
-
-    box-shadow: -18px 19px 20px 1px rgba(0,0,0,1);
-    -webkit-box-shadow: -18px 19px 20px 1px rgba(0,0,0,1);
-    -moz-box-shadow: -18px 19px 20px 1px rgba(0,0,0,1);
-
 }
    
 div ul {
@@ -289,8 +293,28 @@ div ul {
 
 iframe {
         border-radius: 50px;
+        
+        box-shadow: 1px 4px 41px 12px rgba(0,0,0,0.51);
+-webkit-box-shadow: 1px 4px 41px 12px rgba(0,0,0,0.51);
+-moz-box-shadow: 1px 4px 41px 12px rgba(0,0,0,0.51);
 
 }
+
+/* carousel */
+
+ .carousel div {
+        
+       
+
+}
+.carousel h5 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+   
+}
+
+
 
 /* About Us   About Us   About Us */
 

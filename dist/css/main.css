@@ -307,14 +307,16 @@ iframe {
 }
 
 .star-container, .star-container1, .star-container2 {
-  margin: 20px auto;
+  margin: auto;
 }
 
 .star-row {
   display: flex;
-  height: 80%;
+  height: 100%;
   width: 100%;
   justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .title h1 {

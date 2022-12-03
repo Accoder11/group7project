@@ -77,14 +77,16 @@
 // star rating alignment
 
 .star-container, .star-container1, .star-container2 {
-margin: 20px auto;
+margin: auto;
 }
 
 .star-row {
   display: flex;
-  height: 80%;
+  height: 100%;
   width: 100%;
   justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 
@@ -543,7 +545,6 @@ footer {
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 }
-
 
 
 

@@ -533,7 +533,7 @@ button:hover, a:hover {
 
 .title h1:hover {
   color: fff;
-  text-shadow: 0 0 10px goldenrod, 0 0 20px goldenrod, 0 0 40px goldenrod;
+  text-shadow: 0 0 10px black, 0 0 20px black, 0 0 40px goldenrod;
 }
 
 /*FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER*/

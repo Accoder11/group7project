@@ -6,7 +6,7 @@ window.addEventListener('scroll', function() {
     } else {
         nav.classList.remove('bg-black', 'shadow');
     }
-});
+  });
 
 
 // sample rating form

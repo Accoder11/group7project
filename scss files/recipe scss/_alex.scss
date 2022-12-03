@@ -18,14 +18,15 @@
 
 
 
-/* UNIVERSAL SELECTOR */
+/* UNIVERSAL SELECTOR * Wag po tau magedit sa main.css*
+/**************SIR ALEX CSS FILES*******************/
+
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Arvo', serif;
-    letter-spacing: 1px;
 }
 
 body {
@@ -44,12 +45,11 @@ h1 {
     color: burlywood;
 }
 
-h2, h3, h4{
+h2, h3, h4, h5{
     color: goldenrod;
-    padding: 20px;
 }
 
-p, h5 {
+p{
     color: white;
 }
 
@@ -72,7 +72,6 @@ p, h5 {
 }
 .pinikpikan h3  {
     color: goldenrod;
-    padding-bottom: 20px;
 }
 
 .pinikpikan h4 {
@@ -291,18 +290,7 @@ box-shadow: 1px 4px 41px 12px rgba(0,0,0,0.51);
  
     list-style: none;
 }
-.pinikpikan  iframe {
 
-        height: 400px;
-        width: 600px;
-        border-radius: 20px;
-
-}
-
-.pinikpikan .map {
-
-    width: fit-content;
-}
 /* inasal */
 
 .inasal {

@@ -1,11 +1,12 @@
-/* UNIVERSAL SELECTOR */
+/* UNIVERSAL SELECTOR * Wag po tau magedit sa main.css*
+/**************SIR ALEX CSS FILES*******************/
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Arvo", serif;
-  letter-spacing: 1px;
 }
 
 body {
@@ -20,12 +21,11 @@ h1 {
   color: burlywood;
 }
 
-h2, h3, h4 {
+h2, h3, h4, h5 {
   color: goldenrod;
-  padding: 20px;
 }
 
-p, h5 {
+p {
   color: white;
 }
 
@@ -45,7 +45,6 @@ p, h5 {
 
 .pinikpikan h3 {
   color: goldenrod;
-  padding-bottom: 20px;
 }
 
 .pinikpikan h4 {
@@ -224,18 +223,6 @@ div ul iframe {
   list-style: none;
 }
 
-.pinikpikan iframe {
-  height: 400px;
-  width: 600px;
-  border-radius: 20px;
-}
-
-.pinikpikan .map {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
 /* inasal */
 .inasal {
   justify-content: space-between;
@@ -271,10 +258,71 @@ iframe {
   margin-top: 100px;
 }
 
+/**************EM CSS FILES*******************/
+.recipe-container iframe {
+  height: 500px;
+  width: 600px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.recipe-container {
+  background-color: green;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.recipe-container .row {
+  background-color: gray;
+  padding: 5px;
+  margin: 5px auto;
+  text-align: center;
+}
+.recipe-container .col, .recipe-container .col-6 {
+  background-color: red;
+  padding: 5px;
+  margin: 5px auto;
+}
+
+.star-container, .star-container1, .star-container2 {
+  margin: 20px auto;
+}
+
+.star-row {
+  display: flex;
+  height: 80%;
+  width: 100%;
+  justify-content: center;
+}
+
+.title h1 {
+  margin-top: 100px;
+}
+
+.title h1:hover {
+  color: fff;
+  text-shadow: 0 0 10px black, 0 0 20px black, 0 0 40px goldenrod;
+}
+
 nav img {
-  width: 200px;
-  height: 100px;
-  border-radius: 20px;
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
 }
 
 /* FRONT PAGE TITLE ANIMATION */
@@ -306,11 +354,11 @@ nav img {
   }
 }
 /* SAMPLE RATING FORM  Per Recipe pages*/
-.rating-form {
+.star-container {
   position: relative;
   width: 400px;
   background: #111;
-  padding: 10px 20px;
+  padding: 20px 30px;
   border: 1px solid #444;
   border-radius: 5px;
   display: flex;
@@ -319,31 +367,31 @@ nav img {
   flex-direction: column;
 }
 
-.rating-form .post {
+.star-container .post {
   display: none;
 }
 
-.rating-form .text {
-  font-size: 20px;
+.star-container .text {
+  font-size: 25px;
   color: #666;
   font-weight: 500;
 }
 
-.edit {
+.star-container .edit {
   position: absolute;
   right: 10px;
   top: 5px;
-  font-size: 20px;
+  font-size: 16px;
   color: #666;
   font-weight: 500;
   cursor: pointer;
 }
 
-.rating-form .edit:hover {
+.star-container .edit:hover {
   text-decoration: underline;
 }
 
-.rating-form .star-widget input {
+.star-container .star-widget input {
   display: none;
 }
 
@@ -355,65 +403,65 @@ nav img {
   transition: all 0.2s ease;
 }
 
-input:not(:checked) ~ label:hover,
-input:not(:checked) ~ label:hover ~ label {
+.star-widget input:not(:checked) ~ label:hover,
+.star-widget input:not(:checked) ~ label:hover ~ label {
   color: #fd4;
 }
 
-input:checked ~ label {
+.star-widget input:checked ~ label {
   color: #fd4;
 }
 
-input#rate-5:checked ~ label {
+#rate-5:checked ~ label {
   color: #fe7;
   text-shadow: 0 0 20px #952;
 }
 
-#rate-1:checked ~ form header:before {
+#rate-1:checked ~ .forms header:before {
   content: "I just hate it ";
 }
 
-#rate-2:checked ~ form header:before {
+#rate-2:checked ~ .forms header:before {
   content: "I don't like it ";
 }
 
-#rate-3:checked ~ form header:before {
+#rate-3:checked ~ .forms header:before {
   content: "It is awesome ";
 }
 
-#rate-4:checked ~ form header:before {
+#rate-4:checked ~ .forms header:before {
   content: "I just like it ";
 }
 
-#rate-5:checked ~ form header:before {
+#rate-5:checked ~ .forms header:before {
   content: "I just love it ";
 }
 
-.form-rating .rating-form {
+.star-container .forms {
   display: none;
 }
 
-input:checked ~ .form-rating {
+.star-widget input:checked ~ .forms {
   display: block;
 }
 
-form header {
+.forms header {
   width: 100%;
   font-size: 25px;
   color: #fe7;
   font-weight: 500;
-  margin: 10px 0 20px 0;
+  margin: 5px 0 20px 0;
   text-align: center;
   transition: all 0.2s ease;
 }
 
-.rating-form .textarea {
+.forms .text-area {
   height: 100px;
   width: 100%;
   overflow: hidden;
 }
 
-.rating-form .textarea textarea {
+.forms .text-area textarea {
   height: 100%;
   width: 100%;
   outline: none;
@@ -425,32 +473,179 @@ form header {
   resize: none;
 }
 
-.textarea textarea:focus {
+.text-area textarea:focus {
   border-color: #444;
 }
 
-.rating-form .btn {
-  height: 60px;
+.forms .btns {
+  height: 45px;
   width: 100%;
-  margin: 10px;
+  margin: 15px 0;
 }
 
-.rating-form .btn button {
+button[name=star-submit] {
   height: 100%;
   width: 100%;
   border: 1px solid #444;
   outline: none;
-  background: #222;
-  color: #999;
+  background: #fff;
+  color: rgb(72, 72, 72);
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 500px;
   text-transform: uppercase;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
-.rating-form .btn button:hover {
-  background: white;
+.btns:hover {
+  background: #1b1b1b;
+}
+
+.star-container1, .star-container2 {
+  position: relative;
+  width: 400px;
+  background: #111;
+  padding: 20px 30px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.star-container1 .post1, .star-container2 .post2 {
+  display: none;
+}
+
+.star-container1 .text1, .star-container2 .text2 {
+  font-size: 25px;
+  color: #666;
+  font-weight: 500;
+}
+
+.star-container1 .edit1, .star-container2 .edit2 {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 16px;
+  color: #666;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.star-container1 .edit1:hover, .star-container2 .edit2:hover {
+  text-decoration: underline;
+}
+
+.star-container1 .star-widget1 input, .star-container2 .star-widget2 input {
+  display: none;
+}
+
+.star-widget1 label, .star-widget2 label {
+  font-size: 40px;
+  color: #444;
+  padding: 10px;
+  float: right;
+  transition: all 0.2s ease;
+}
+
+.star-widget1 input:not(:checked) ~ label:hover,
+.star-widget1 input:not(:checked) ~ label:hover ~ label, .star-widget2 input:not(:checked) ~ label:hover,
+.star-widget2 input:not(:checked) ~ label:hover ~ label {
+  color: #fd4;
+}
+
+.star-widget1 input:checked ~ label, .star-widget2 input:checked ~ label {
+  color: #fd4;
+}
+
+#rated-5:checked ~ label, #ratd-5:checked ~ label {
+  color: #fe7;
+  text-shadow: 0 0 20px #952;
+}
+
+#rated-1:checked ~ .forms1 header:before, #ratd-1:checked ~ .forms2 header:before {
+  content: "I just hate it ";
+}
+
+#rated-2:checked ~ .forms1 header:before, #ratd-2:checked ~ .forms2 header:before {
+  content: "I don't like it ";
+}
+
+#rated-3:checked ~ .forms1 header:before, #ratd-3:checked ~ .forms2 header:before {
+  content: "It is awesome ";
+}
+
+#rated-4:checked ~ .forms1 header:before, #ratd-4:checked ~ .forms2 header:before {
+  content: "I just like it ";
+}
+
+#rated-5:checked ~ .forms1 header:before, #ratd-5:checked ~ .forms2 header:before {
+  content: "I just love it ";
+}
+
+.star-container1 .forms1, .star-container2 .forms2 {
+  display: none;
+}
+
+.star-widget1 input:checked ~ .forms1, .star-widget2 input:checked ~ .forms2 {
+  display: block;
+}
+
+.forms1 header, .forms2 header {
+  width: 100%;
+  font-size: 25px;
+  color: #fe7;
+  font-weight: 500;
+  margin: 5px 0 20px 0;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.forms1 .text-area1, .forms2 .text-area2 {
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.forms1 .text-area1 textarea, .forms2 .text-area2 textarea {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #eee;
+  border: 1px solid #333;
+  background: #222;
+  padding: 10px;
+  font-size: 17px;
+  resize: none;
+}
+
+.text-area1 textarea:focus, .text-area2 textarea:focus {
+  border-color: #444;
+}
+
+.forms1 .btns1, .forms2 .btns2 {
+  height: 45px;
+  width: 100%;
+  margin: 15px 0;
+}
+
+button[name=star-submit1] {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  background: #fff;
+  color: rgb(72, 72, 72);
+  font-size: 17px;
+  font-weight: 500px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btns1:hover, .btns2:hover {
+  background: #1b1b1b;
 }
 
 /*ABOUT US ABOUT US ABOUT US ABOUT US ABOUT US*/
@@ -496,7 +691,7 @@ form header {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 500px;
+  max-width: 400px;
   margin: auto;
   text-align: center;
   font-family: arial;
@@ -527,18 +722,9 @@ button:hover, a:hover {
   border-radius: 100px;
 }
 
-.title h1 {
-  margin-top: 100px;
-}
-
-.title h1:hover {
-  color: fff;
-  text-shadow: 0 0 10px black, 0 0 20px black, 0 0 40px goldenrod;
-}
-
 /*FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER*/
 footer {
-  background-color: #121111;
+  background-color: black;
 }
 
 section li {
@@ -557,6 +743,10 @@ section .logo {
   margin: 8px;
   border: 1px solid black;
   border-radius: 100px;
+}
+
+.newsletters {
+  background-color: white;
 }
 
 /* Media Queries Media Queries Media Queries Media Queries Media Queries */
@@ -603,4 +793,5 @@ section .logo {
   .col-12 {
     width: 100%;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+/**************SIR KENT CSS FILES*******************/ /**************SIR LARRY CSS FILES*******************/ /**************SIR KENT CSS FILES*******************//*# sourceMappingURL=main.css.map */

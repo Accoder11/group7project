@@ -71,6 +71,16 @@ body {
 }
 
 /* FRONT PAGE TITLE ANIMATION */
+
+.banner-image {
+  background-image: url(https://t4.ftcdn.net/jpg/04/43/37/07/360_F_443370711_sqHRnSIQovW6uyQ5ZwDpd4kjCG8Q6swm.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
 .banner {
   text-transform: uppercase;
   background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
@@ -341,6 +351,12 @@ iframe {
 }
 
 /**************EM CSS FILES*******************/
+
+.procedure-list {
+  color: white;
+}
+
+
 .star-container, .star-container1, .star-container2 {
   padding: 5px;
 }

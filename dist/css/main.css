@@ -42,6 +42,7 @@ body {
   width: 600px;
   border-radius: 10px;
   justify-content: center;
+  margin: 50px auto;
 }
 
 .frontpage-video-header {
@@ -72,19 +73,16 @@ body {
 }
 
 .recipe-container {
-  background-color: green;
   height: 100%;
   width: 100%;
-  margin: 40px auto;
+  margin: 50px auto;
   padding: 5px;
 }
 .recipe-container .row {
-  background-color: gray;
   padding: 5px;
-  margin: 10px 20px;
+  margin: 20px auto;
 }
 .recipe-container .col, .recipe-container .col-8, .recipe-container .col-4, .recipe-container .col-7, .recipe-container .col-5 {
-  background-color: red;
   padding: 10px 20px;
 }
 .recipe-container h2 {
@@ -378,7 +376,7 @@ html {
 
 .arrow {
   margin-top: 30px;
-  width: 120px;
+  width: 100px;
 }
 
 .procedure-list {

@@ -72,6 +72,7 @@ body {
     width: 600px;
     border-radius: 10px;
     justify-content: center;
+    margin: 50px auto;
   }
 
   .frontpage-video-header {
@@ -101,18 +102,15 @@ body {
   }
   
   .recipe-container {
-    background-color: green;
     height: 100%;
     width: 100%;
-    margin: 40px auto;
+    margin: 50px auto;
     padding: 5px;
    .row {
-    background-color: gray;
     padding: 5px;
-    margin: 10px 20px;
+    margin: 20px auto;
    }
     .col, .col-8, .col-4, .col-7, .col-5{
-      background-color: red;
       padding: 10px 20px;
     }
     h2{

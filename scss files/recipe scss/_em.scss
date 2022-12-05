@@ -56,7 +56,7 @@ html {
 // star rating alignment
 
 .star-container, .star-container1, .star-container2 {
-  padding: 5px;
+  padding: 10px 20px;
 }
 
 .star-row {
@@ -64,12 +64,6 @@ html {
   justify-content: center;
   align-items: center;
   align-content: center;
-}
-
-.star-container2 {
-  background-color: pink;
-  padding: 10px;
-  border: 2px solid white;
 }
 
 
@@ -102,7 +96,6 @@ nav img{
   position: relative;
   width: 400px;
   background: #111;
-  padding: 20px 20px;
   border: 1px solid #444;
   border-radius: 5px;
   display: flex;

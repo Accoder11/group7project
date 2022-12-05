@@ -40,6 +40,29 @@ body {
 
 }
 
+.frontpage h2 {
+    border-bottom: 1px double goldenrod;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.carousel {
+    margin:100px auto;
+    height: 1000px;
+    width: 1000px;
+    border-radius: 10px;
+    justify-content: center;
+
+    h2 {
+        margin: 100px auto 50px;
+        text-align: center;
+    }
+}
+
+
 
 // RECIPE COLOR, PADDING AND MARGINS, VIDEO AND MAP RESPONSIVENESS
 
@@ -50,10 +73,14 @@ body {
     border-radius: 10px;
     justify-content: center;
   }
+
+  .frontpage-video-header {
+    margin: 100px auto 50px;
+  }
   
-  .frontpage-container  iframe {
-  
-    height: 500px;
+  .frontpage-container-video iframe{
+    margin:100px auto;
+    height: 700px;
     width: 600px;
     border-radius: 10px;
     justify-content: center;
@@ -127,21 +154,21 @@ body {
   /* FRONT PAGE TITLE ANIMATION */
 
 
-.banner-image {
-    background-image: url(https://t4.ftcdn.net/jpg/04/43/37/07/360_F_443370711_sqHRnSIQovW6uyQ5ZwDpd4kjCG8Q6swm.jpg); 
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-}
+// .banner-image {
+//     background-image: url(https://t4.ftcdn.net/jpg/04/43/37/07/360_F_443370711_sqHRnSIQovW6uyQ5ZwDpd4kjCG8Q6swm.jpg); 
+//    background-size: cover;
+//    background-position: center;
+//    background-repeat: no-repeat;
+// }
 
 .banner{
     text-transform: uppercase;
    background-image: linear-gradient(
      -225deg,
-     #231557 0%,
-     #44107a 29%,
-     #ff1361 67%,
-     #fff800 100%
+     #F0EDEE 0%,
+     #07393C 29%,
+     goldenrod 67%,
+     #90DDF0 100%
    );
    background-size: auto auto;
    background-clip: border-box;

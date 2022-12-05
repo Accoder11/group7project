@@ -37,14 +37,6 @@ body {
   text-align: center;
 }
 
-.recipe-container iframe {
-  height: 500px;
-  width: 600px;
-  border-radius: 10px;
-  justify-content: center;
-  margin: 50px auto;
-}
-
 .frontpage-video-header {
   margin: 100px auto 50px;
 }
@@ -72,11 +64,20 @@ body {
   position: absolute;
 }
 
+.recipe-container iframe {
+  height: 500px;
+  width: 600px;
+  border-radius: 10px;
+  justify-content: center;
+  margin: 50px auto;
+}
+
 .recipe-container {
   height: 100%;
   width: 100%;
   margin: 50px auto;
   padding: 5px;
+  border: 1px solid goldenrod;
 }
 .recipe-container .row {
   padding: 5px;

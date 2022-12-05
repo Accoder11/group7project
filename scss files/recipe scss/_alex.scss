@@ -66,14 +66,7 @@ body {
 
 // RECIPE COLOR, PADDING AND MARGINS, VIDEO AND MAP RESPONSIVENESS
 
-.recipe-container  iframe {
 
-    height: 500px;
-    width: 600px;
-    border-radius: 10px;
-    justify-content: center;
-    margin: 50px auto;
-  }
 
   .frontpage-video-header {
     margin: 100px auto 50px;
@@ -100,12 +93,22 @@ body {
     width:100%;
     position:absolute;
   }
+
+  .recipe-container  iframe {
+
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 50px auto;
+  }
   
   .recipe-container {
     height: 100%;
     width: 100%;
     margin: 50px auto;
     padding: 5px;
+    border: 1px solid goldenrod;
    .row {
     padding: 5px;
     margin: 20px auto;

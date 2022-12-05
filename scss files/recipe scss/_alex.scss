@@ -34,8 +34,101 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
+
+
+// RECIPE COLOR, PADDING AND MARGINS, VIDEO AND MAP RESPONSIVENESS
+
+.recipe-container  iframe {
+
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  
+  .frontpage-container  iframe {
+  
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  
+  .map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+  
+  .recipe-container {
+    background-color: green;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 50px;
+   .row {
+    background-color: gray;
+    padding: 5px;
+    margin: 10px 20px;
+   }
+    .col, .col-8, .col-4, .col-7, .col-5{
+      background-color: red;
+      padding: 10px;
+    }
+    h2,h3,h4,h5 {
+      text-align: center;
+    }
+  }
+  
+  .ingredients-container {
+    display: inline-block;
+    background-color: maroon;
+    padding: 5px;
+  }
+
+  /* FRONT PAGE TITLE ANIMATION */
+
+
+.banner-image {
+    background-image: url(https://t4.ftcdn.net/jpg/04/43/37/07/360_F_443370711_sqHRnSIQovW6uyQ5ZwDpd4kjCG8Q6swm.jpg); 
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.banner{
+    text-transform: uppercase;
+   background-image: linear-gradient(
+     -225deg,
+     #231557 0%,
+     #44107a 29%,
+     #ff1361 67%,
+     #fff800 100%
+   );
+   background-size: auto auto;
+   background-clip: border-box;
+   background-size: 200% auto;
+   color: #fff;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: textclip 2s linear infinite;
+   display: inline-block;
+       font-size: 120px;
+  }
+  
+  @keyframes textclip {
+   to {
+     background-position: 200% center;
+   }
+  }
 
 // from chicken.css file
 // FONT COLOR, FONT SIZE, FONT STYLE

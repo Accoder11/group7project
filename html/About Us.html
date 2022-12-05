@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us</title>
+    <title>About Us</title>
     <link
       rel="icon"
       type="image/x-icon"
@@ -39,192 +39,442 @@
   </head>
   <body>
     <header>
-       <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+     <!-- Navbar -->
+     <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html"><img class="img-fluid" src="../images/logo7.jpeg" alt="logo"></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle Navbar"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-  
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="mx-auto"></div>
-            <ul class="navbar-nav mx-2 mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item dropdown">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle Navbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav mx-2 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Recipe
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="vegetable.html"
+                    >Vegetable Recipe</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="beef.html">Beef Recipe</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="chicken.html"
+                    >Chicken Recipe</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="pork.html">Pork Recipe</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="fish.html">Fish Recipe</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="desserts.html">Desserts</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="About Us.html">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="Contactus.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <form class="d-flex mx-2" role="search" action="#">
+                <input
+                  class="form-control"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-primary" type="submit">
+                  <i class="bi bi-search"></i>
+                </button>
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+    <!-- Page Title -->
+    <div class="main">
+    <div class="title text-center p-5 col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto
+    fw-bold">
+     <h1 class="display-3">Meet Our Team</h1></div>
+    
+    
+    
+    <div class="container g-3">
+      <div class="row p-5 mx-auto justify-content-center">
+        <div class="col-4 col-lg-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="card">
+                  <img class="img-fluid img-thumbnail w-100" style="width: 400px; height: 300px" src="https://placeimg.com/540/500/animals" alt="alex">
+                  <h1>Sir Alex</h1>
+                  <blockquote>“You don’t need a silver fork to eat good food.”
+
+                    – Paul Prudhomme</blockquote>
+                  
+                 </div>
+              </div>
+              <div class="flip-card-back">
+                <h1>Sir Alex</h1>
+                <p>ASSOCIATE GENERAL MANAGER</p>
+                <p class="p-2">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
+                  quam dolorum officia velit in consequatur voluptatum sequi
+                  quod. Culpa, quasi.
+                </p>
+                <div class="container py-5">
+                  <div class="row">
+                    <div class="col">
+                  </div>
+                </div>
                 <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Recipe
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="vegetable.html"
-                      >Vegetable Recipe</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="beef.html">Beef Recipe</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="chicken.html"
-                      >Chicken Recipe</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="pork.html">Pork Recipe</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="fish.html">Fish Recipe</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="desserts.html">Desserts</a>
-                  </li>
-                </ul>
-              </li>
-  
-              <li class="nav-item">
-                <a class="nav-link" href="About Us.html">About Us</a>
-              </li>
-  
-              <li class="nav-item">
-                <a class="nav-link" href="Contactus.html">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                <form class="d-flex mx-2" role="search" action="#">
-                  <input
-                    class="form-control"
-                    type="search"
-                    placeholder="Search"
-                    aria-label="Search"
-                  />
-                  <button class="btn btn-primary" type="submit">
-                    <i class="bi bi-search"></i>
-                  </button>
-                </form>
-              </li>
-            </ul>
+                class="btn btn-primary btn-floating m-1"
+                style="background-color: #3b5998"
+                href="https://www.facebook.com/"
+                target="_blank"
+                role="button"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #ac2bac"
+            href="https://www.instagram.com/"
+            target="_blank"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+            <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #0082ca"
+            href="https://www.linkedin.com/login"
+            target="_blank"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a class="btn btn-primary btn-floating m-1"
+            style="background-color: #333333"
+            href="https://github.com/"
+            target="_blank"
+            role="button">
+            <i class="fab fa-github"></i></a>
+              </div>
+            <p><button class="contact">Contact</button></p>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
-    </header>
+          <div class="col-4 col-lg-4">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <div class="card">
+                    <img class="img-fluid img-thumbnail w-100" style="width: 400px; height: 300px" src="https://placeimg.com/540/500/animals" alt="arky" style="width:100%">
+                    <h1>Sir Arky</h1>
+                    <blockquote>“Food is symbolic of love when words are inadequate.”
+
+                      – Alan D. Wolfelt</blockquote>
+                   </div>
+                </div>
+                <div class="flip-card-back">
+                  <h1>Sir Arky</h1>
+                  <p>SENIOR SOCIAL MEDIA MANAGER</p>
+                  <p class="p-2">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
+                    quam dolorum officia velit in consequatur voluptatum sequi
+                    quod. Culpa, quasi.
+                  </p>
+                  <div class="container py-5">
+                    <div class="row">
+                      <div class="col">
+                    </div>
+                  </div>
+                  <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #3b5998"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  role="button"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #ac2bac"
+              href="https://www.instagram.com/"
+              target="_blank"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+              <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #0082ca"
+              href="https://www.linkedin.com/login"
+              target="_blank"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a class="btn btn-primary btn-floating m-1"
+              style="background-color: #333333"
+              href="https://github.com/"
+              target="_blank"
+              role="button">
+              <i class="fab fa-github"></i></a>
+                </div>
+              <p><button class="contact">Contact</button></p>
   
-      <!-- Page Title -->
-      <div class="main">
-      <div class="title text-center p-5 col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto
-      fw-bold">
-       <h1 class="display-2">Contact Us</h1></div>
-      
-
-    <!-- Contact Form -->
-
-    <div class="container py-3 col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto ">
-      <div class="row g-2 p-3 justify-content-center">
-        <div class="col-5 col-md-6 bg-light p-3">
-          <h4 class="text-center mb-5">Your email address will not be published with your comments.</h4>
-          <form name="formValidation" id="formValidation" action="Contactus.html">
-            <!-- Name input -->
-            <div class="form-outline mb-3">
-              <input
-                type="text"
-                name="name"
-                id="formValidation"
-                class="form-control"
-                required
-              />
-              <label class="form-label" for="name">Name<span>*</span></label>
-            </div>
-
-            <!-- Email input -->
-            <div class="form-outline mb-3">
-              <input
-                type="email"
-                name="email"
-                id="form4Example2"
-                class="form-control"
-                required
-              />
-              <label class="form-label" for="email"
-                >Email address<span>*</span></label>
-            </div>
-
-            <div class="form-group mb-3">
-              <label for="exampleFormControlFile1"
-                >Please, share us your own recipe</label
-              >
-              <div class="form-outline mb-3">
-                <input
-                  type="text" 
-                  name="recipe" 
-                  id="formValidation"
-                  class="form-control"
-                  required
-                />
-                <label class="form-label" for="recipe"
-                  >Recipe Name<span>*</span></label
-                >
+                </div>
               </div>
-              <input
-                type="file"
-                class="form-control-file"
-                id="exampleFormControlFile1"
-              />
             </div>
+          </div>
+          <div class="col-4 col-lg-4">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <div class="card">
+                    <img class="img-fluid img-thumbnail w-100" style="width: 400px; height: 300px" src="https://placeimg.com/540/500/animals" alt="em" style="width:100%">
+                    <h1>Em</h1>
+                    <blockquote>“Life is uncertain. Eat dessert first.”
 
-            <!-- Message input -->
-            <div class="form-outline mb-3">
-              <textarea
-                class="form-control"
-                id="formValidation"
-                name="formMessage"
-                rows="4"
-              ></textarea>
-              <label class="form-label" for="formMessage">Message</label>
+                      – Ernestine Ulmer</blockquote>
+                   </div>
+                </div>
+                <div class="flip-card-back">
+                  <h1>Em</h1>
+                  <p>VISUAL EDITOR</p>
+                  <p class="p-2">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
+                    quam dolorum officia velit in consequatur voluptatum sequi
+                    quod. Culpa, quasi.
+                  </p>
+                  <div class="container py-5">
+                    <div class="row">
+                      <div class="col">
+                    </div>
+                  </div>
+                  <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #3b5998"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  role="button"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #ac2bac"
+              href="https://www.instagram.com/"
+              target="_blank"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+              <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #0082ca"
+              href="https://www.linkedin.com/login"
+              target="_blank"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a class="btn btn-primary btn-floating m-1"
+              style="background-color: #333333"
+              href="https://github.com/"
+              target="_blank"
+              role="button">
+              <i class="fab fa-github"></i></a>
+                </div>
+              <p><button class="contact">Contact</button></p>
+                </div>
+              </div>
             </div>
-
-            <!-- Checkbox -->
-            <div class="form-check d-flex justify-content-center mb-3">
-              <input
-                class="form-check-input me-2"
-                type="checkbox"
-                value=""
-                id="form4Example4"
-                checked
-              />
-              <label class="form-check-label" for="form4Example4">
-                Send me a copy of this message
-              </label>
+          </div>
+          <div class="col-4 col-lg-4">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <div class="card">
+                    <img class="img-fluid img-thumbnail w-100" style="width: 400px; height: 300px" src="https://placeimg.com/540/500/animals" alt="larry" style="width:100%">
+                    <h1>Sir Larry</h1>
+                    <blockquote>“There is no sincerer love than the love of food.” - George Bernard Shaw</blockquote>
+                   </div>
+                </div>
+                <div class="flip-card-back">
+                  <h1>Sir Larry</h1>
+                    <p class>ART DIRECTOR</p>
+                  <p class="p-2">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
+                    quam dolorum officia velit in consequatur voluptatum sequi
+                    quod. Culpa, quasi.
+                  </p>
+                  <div class="container py-5">
+                    <div class="row">
+                      <div class="col">
+                    </div>
+                  </div>
+                  <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #3b5998"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  role="button"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #ac2bac"
+              href="https://www.instagram.com/"
+              target="_blank"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+              <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #0082ca"
+              href="https://www.linkedin.com/login"
+              target="_blank"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a class="btn btn-primary btn-floating m-1"
+              style="background-color: #333333"
+              href="https://github.com/"
+              target="_blank"
+              role="button">
+              <i class="fab fa-github"></i></a>
+                </div>
+              <p><button class="contact">Contact</button></p>
+                </div>
+              </div>
             </div>
-
-            <!-- Submit button -->
-            <button type="submit" class="btn btn-primary btn-block mb-4">
-              Send
-            </button>
-          </form>
-        </div>
+          </div>
+          <div class="col-4 col-lg-4">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <div class="card">
+                    <img class="img-fluid img-thumbnail w-100" style="width: 400px; height: 300px" src="https://placeimg.com/540/500/animals" alt="kent" style="width:100%">
+                    <h1>Sir Kent</h1>
+                    <blockquote>“Never eat more than you can life.”<br>
+                      – Miss Piggy</blockquote>
+                   </div>
+                </div>
+                <div class="flip-card-back">
+                  <h1>Sir Kent</h1>
+                  <p>SENIOR EDITOR</p>
+                  <p class="p-2">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
+                    quam dolorum officia velit in consequatur voluptatum sequi
+                    quod. Culpa, quasi.
+                  </p>
+                  <div class="container py-5">
+                    <div class="row">
+                      <div class="col">
+                    </div>
+                  </div>
+                  <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #3b5998"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  role="button"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #ac2bac"
+              href="https://www.instagram.com/"
+              target="_blank"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+              <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #0082ca"
+              href="https://www.linkedin.com/login"
+              target="_blank"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a class="btn btn-primary btn-floating m-1"
+              style="background-color: #333333"
+              href="https://github.com/"
+              target="_blank"
+              role="button">
+              <i class="fab fa-github"></i></a>
+                </div>
+              <p><button class="contact">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
-      </div>
-
     
 
-      <!-- Footer -->
+
+        <!-- SPONSORS? TOOLS? REFERENCE? -->
+
+    <section class="text-center title py-5 col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto">
+      <h1 class="display-3">Tools and Systems We Use</h1>
+    </section>
+    <div class="container-fluid">
+      <div class="row row-cols-5 p-5 justify-content-center g-4">
+        <div class="col-2 col-lg-4">
+          <div><a href="https://www.w3schools.com/html/"><img class=" logo img-fluid w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGPtwTQ7koKuwHp7f7UNGMjI40qtP8pXnwgp5YMpOKTA&s" alt=""></a></div>
+        </div>
+          <div class="col-2 col-lg-4">
+            <div><a href="https://www.w3schools.com/html/"><img class="logo img-fluid w-100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/363px-CSS3_logo_and_wordmark.svg.png?20160530175649" alt=""></a></div>
+          </div>
+            <div class="col-2 col-lg-4">
+              <div><a href="https://www.w3schools.com/html/"><img class="logo img-fluid w-100" src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-hq-png-1.png" alt=""></a></div>
+                </div>                
+                <div class="col-2 col-lg-4">
+                  <div><a href="https://github.com/"><img class="logo img-fluid w-100" src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" alt=""></a></div>
+                    </div>
+                    <div class="col-2 col-lg-4">
+                      <div><a href="https://getbootstrap.com/"><img class="logo img-fluid w-100" src="https://www.brcline.com/wp-content/uploads/2016/01/bootstrap-logo-300x240.png" alt=""></a></div>
+                        </div>
+                  </div>
+                </div>
+             </div>
+            </div>
+    
+
+   
+   
+    <!-- Footer -->
     <footer
     class="container-fluid mt-5 text-center"
   >

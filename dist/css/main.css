@@ -297,12 +297,12 @@ iframe {
 .recipe-container .row {
   background-color: gray;
   padding: 5px;
-  margin: 5px auto;
+  margin: 10px auto;
   text-align: center;
 }
-.recipe-container .col, .recipe-container .col-6 {
+.recipe-container .col, .recipe-container .col-8, .recipe-container .col-4, .recipe-container .col-7, .recipe-container .col-5 {
   background-color: red;
-  padding: 5px;
+  padding: 10px;
   margin: 5px auto;
 }
 

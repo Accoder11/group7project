@@ -353,6 +353,14 @@ iframe {
 }
 
 /**************EM CSS FILES*******************/
+html {
+  scroll-behavior: smooth;
+}
+
+.arrow {
+  width: 80px;
+}
+
 .procedure-list {
   color: white;
 }

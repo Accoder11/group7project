@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vegetable Recipes</title>
+  <title>Chicken Recipes</title>
   <link rel="icon" type="image/x-icon" href="../images/favicon.png" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
@@ -91,15 +91,17 @@
     fw-bold">
       <h1 class="display-2">Vegetable Recipes</h1>
     </div>
+    <p class="text-center bg-warning display-6">Markings lang po ung mga kulay...para lang makita natin ung
+      margins...green po ung container, gray ung rows, at red ung columns. Salamat</p>
   </div>
 
 
   <!-- 
     Main Content -->
+
   <div class="container recipe-container">
     <div class="row">
       <div class="col col-xl-9">
-
         <h3>Laing with Shrimp</h3>
         <p>
           Laing is a well-loved Bicolano dish that is savory, creamy, earthy, and spicy all at once! It's one of the
@@ -113,14 +115,13 @@
     </div>
 
     <div class="row">
-      <div class="col-6">
+      <div class="col-8">
         <img class="img-fluid w-100" src="https://images.summitmedia-digital.com/yummyph/images/2017/02/09/laing.jpg"
-          alt="Laing">
+          alt="Laing Img">
       </div>
-      <div class="col-6">
+      <div class="col-4">
         <ul>
           <h5>Ingridients:</h5>
-
           <li>2 tablespoons vegetable oil</li>
           <li>500 grams pork, diced</li>
           <li>500 grams pork, diced</li>
@@ -133,12 +134,13 @@
           <li>siling labuyo (bird's eye chili), sliced</li>
           <li>1 cup dried shrimp (hibe), or hibe</li>
           <li>1 tablespoon vinegar</li>
+
         </ul>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-6">
+      <div class="col-4">
         <h4>Traditional way of cooking</h4>
         <h5>Procedure</h5>
         <ul>
@@ -149,22 +151,20 @@
           <li>Make the crispy shrimp: Heat oil in a pan. Fry shrimp for 2 minutes. Add sugar and vinegar. Cook for 2
             more minutes. Drain and set aside</li> <br>
           <li>Transfer laing to a serving plate. Top with crispy shrimp and garnish with chilies, if desired. </li>
-
         </ul>
       </div>
 
       <!-- RESPONSIVE VIDEO -->
-      <div class="col-6">
+      <div class="col-8">
         <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item w-100" src="https://www.youtube.com/embed/6SdSOmMwfuA?start=9"
-            title="Pinikpikan: A Filipino Ritual Dish in the Cordilleras | Filipino Culture • Pepper.ph" frameborder="0"
-            allowfullscreen></iframe>
+            title="Shrimp Laing instruction Video" frameborder="0" allowfullscreen></iframe>
         </div>
 
       </div>
     </div>
     <div class="row">
-      <div class="col-6">
+      <div class="col-12">
         <div class="row">
 
           <p>
@@ -176,46 +176,52 @@
         </div>
         <div class="row">
           <!--Google map-->
-          <div id="map-container" class="z-depth-1-half map-container" style="height: 500px">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1155715.8126178267!2d122.34210778742758!3d13.51310849736458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a18cae756d7859%3A0xa65102d7e0abe82e!2sBicol!5e0!3m2!1sen!2sph!4v1670173272534!5m2!1sen!2sph"
-              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="col-7">
+            <div id="map-container" class="z-depth-1-half map-container" style="height: 500px">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1155715.8126178267!2d122.34210778742758!3d13.51310849736458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a18cae756d7859%3A0xa65102d7e0abe82e!2sBicol!5e0!3m2!1sen!2sph!4v1670173272534!5m2!1sen!2sph"
+                width="600" height="450" style="border:0" allowfullscreen loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
           </div>
-        </div>
-      </div>
-      <!-- RECIPE STAR RATING -->
-      <div class="col-6">
-        <div class="container recipe-container">
-          <div class="row star-row">
-            <div class="star-container">
-              <div>
-                <h2 class="text-center my-3">Please leave us a recipe rating and message</h2>
-              </div>
-              <div>
-                <div class="post">
-                  <div class="edit">EDIT</div>
-                </div>
-                <div class="star-widget">
-                  <input type="radio" name="rate" id="rate-5">
-                  <label for="rate-5" class="fas fa-star"></label>
-                  <input type="radio" name="rate" id="rate-4">
-                  <label for="rate-4" class="fas fa-star"></label>
-                  <input type="radio" name="rate" id="rate-3">
-                  <label for="rate-3" class="fas fa-star"></label>
-                  <input type="radio" name="rate" id="rate-2">
-                  <label for="rate-2" class="fas fa-star"></label>
-                  <input type="radio" name="rate" id="rate-1">
-                  <label for="rate-1" class="fas fa-star"></label>
-                  <form class="form forms" action="#">
-                    <header></header>
-                    <div class="textarea text-area">
-                      <textarea cols="30" placeholder="Describe your experience.."></textarea>
+
+
+
+          <!-- RECIPE STAR RATING -->
+          <div class="col-5">
+            <div class="container recipe-container">
+              <div class="row star-row">
+                <div class="star-container">
+                  <div>
+                    <h2 class="text-center my-3">Please leave us a recipe rating and message</h2>
+                  </div>
+                  <div>
+                    <div class="post">
+                      <div class="edit">EDIT</div>
                     </div>
-                    <div class="btn btns">
-                      <button type="submit" name="star-submit">Submit</button>
+                    <div class="star-widget">
+                      <input type="radio" name="rate" id="rate-5">
+                      <label for="rate-5" class="fas fa-star"></label>
+                      <input type="radio" name="rate" id="rate-4">
+                      <label for="rate-4" class="fas fa-star"></label>
+                      <input type="radio" name="rate" id="rate-3">
+                      <label for="rate-3" class="fas fa-star"></label>
+                      <input type="radio" name="rate" id="rate-2">
+                      <label for="rate-2" class="fas fa-star"></label>
+                      <input type="radio" name="rate" id="rate-1">
+                      <label for="rate-1" class="fas fa-star"></label>
+                      <form class="form forms" action="#">
+                        <header></header>
+                        <div class="textarea text-area">
+                          <textarea cols="30" placeholder="Describe your experience.."></textarea>
+                        </div>
+                        <div class="btn btns">
+                          <button type="submit" name="star-submit">Submit</button>
+                        </div>
+                      </form>
                     </div>
-                  </form>
+                  </div>
                 </div>
               </div>
             </div>
@@ -225,7 +231,7 @@
     </div>
   </div>
 
-
+  <!-- 2nd part -->
   <div class="container recipe-container">
     <div class="row">
       <div class="col col-xl-9">
@@ -246,36 +252,41 @@
         <p>A very easy-to-cook dish packed with different vitamins and minerals (just limit the bagnet if you are
           conscious of your health), Pakbet is a dish that is really worth trying. By the way, having an extra cup of
           rice around might help.</p>
+
       </div>
     </div>
 
     <div class="row">
-      <div class="col-6">
+      <div class="col-8">
         <img class="img-fluid w-100" src="https://i.pinimg.com/564x/1a/6d/0a/1a6d0a076bdb313e56965f92a4789be7.jpg"
-          alt="PinakBet">
+          alt="Pinakbet">
       </div>
-      <div class="col-6">
+      <div class="col-4">
         <ul>
           <h5>Ingridients:</h5>
 
-          <li>1 lb lechon kawali sliced</li>
-          <li>12 pieces sitaw cut into 2 inch length</li>
-          <li>1/2 piece kalabasa cubed</li>
-          <li>12 pieces okra</li>
-          <li>1 piece Chinese eggplant sliced</li>
-          <li>1 piece ampalaya sliced</li>
-          <li>1 piece onion chopped</li>
-          <li>4 cloves garlic crushed</li>
-          <li>2 teaspoons bagoong alamang</li>
-          <li>2 ½ cups water</li>
-          <li>3 tablespoons cooking oil</li>
-          <li>¼ teaspoon ground black pepper</li>
+          <ul>
+            <li>1 lb lechon kawali sliced</li>
+            <li>12 pieces sitaw cut into 2 inch length</li>
+            <li>1/2 piece kalabasa cubed</li>
+            <li>12 pieces okra</li>
+            <li>1 piece Chinese eggplant sliced</li>
+            <li>1 piece ampalaya sliced</li>
+            <li>1 piece onion chopped</li>
+            <li>4 cloves garlic crushed</li>
+            <li>2 teaspoons bagoong alamang</li>
+            <li>2 ½ cups water</li>
+            <li>3 tablespoons cooking oil</li>
+            <li>¼ teaspoon ground black pepper</li>
+
+
+          </ul>
         </ul>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-6">
+      <div class="col-4">
         <h4>Traditional way of cooking</h4>
         <h5>Procedure</h5>
         <ul>
@@ -293,17 +304,19 @@
       </div>
 
       <!-- RESPONSIVE VIDEO -->
-      <div class="col-6">
+      <div class="col-8">
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item w-100" src="https://www.youtube.com/embed/IgzclXhGBAc" title="Pinakbet"
-            frameborder="0" allowfullscreen></iframe>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item w-100" src="https://www.youtube.com/embed/IgzclXhGBAc"
+                title="Shrimp Laing instruction Video" frameborder="0" allowfullscreen></iframe>
+            </div>
 
-            
         </div>
+
       </div>
     </div>
     <div class="row">
-      <div class="col-6">
+      <div class="col-12">
         <div class="row">
 
           <p>
@@ -315,16 +328,22 @@
         </div>
         <div class="row">
           <!--Google map-->
-          <div id="map-container" class="z-depth-1-half map-container" style="height: 500px">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1140953.9210382157!2d120.05274053086663!3d16.281238812705016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x338ec93a364ff48b%3A0x32315f5d267980cd!2sIlocos%20Region!5e0!3m2!1sen!2sph!4v1670175191915!5m2!1sen!2sph"
-              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
+
         </div>
       </div>
+      <!--  -->
+      <!--Google map-->
+      <div class="col-7">
+        <div id="map-container" class="z-depth-1-half map-container" style="height: 500px">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1140953.9210382157!2d120.05274053086663!3d16.281238812705016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x338ec93a364ff48b%3A0x32315f5d267980cd!2sIlocos%20Region!5e0!3m2!1sen!2sph!4v1670175191915!5m2!1sen!2sph"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
       <!-- RECIPE STAR RATING -->
-      <div class="col-6">
+      <div class="col-5">
         <div class="star-row recipe-container">
           <div class="star-container1">
             <div>
@@ -362,7 +381,7 @@
     </div>
   </div>
   </div>
-
+  <!-- 3rd part -->
 
   <div class="container recipe-container">
     <div class="row">
@@ -385,14 +404,12 @@
     </div>
 
     <div class="row">
-      <div class="col-6">
-        <img class="img-fluid w-100"
-          src="https://images.summitmedia-digital.com/yummyph/images/2019/12/17/utanbisayarecipe2.jpg"
-          alt="Pinik-Pikan">
+      <div class="col-8">
+        <img class="img-fluid w-100" src="https://images.summitmedia-digital.com/yummyph/images/2019/12/17/utanbisayarecipe2.jpg"
+          alt="Pinakbet">
       </div>
-      <div class="col-6">
+      <div class="col-4">
         <ul>
-          <h5>Ingridients:</h5>
           <li>6 cups water</li>
           <li>1 cup squash, cubed</li>
           <li>2 pieces gabi, peeled, cubed</li>
@@ -413,9 +430,8 @@
     </div>
 
     <div class="row">
-      <div class="col-6">
-        <h4>Traditional way of cooking</h4>
-        <h5>Procedure</h5>
+      <div class="col-4">
+        <h4>Traditional way of cooking </h4>
         <ul>
           <li>Pour water into a pot over medium-high heat. Add squash, gabi, and ginger; bring to a boil then simmer for 5 minutes or until almost tender. </li><br>
           <li>Pour water into a pot over medium-high heat. Add squash, gabi, and ginger; bring to a boil then simmer for 5 minutes or until almost tender. </li><br>
@@ -425,17 +441,16 @@
       </div>
 
       <!-- RESPONSIVE VIDEO -->
-      <div class="col-6">
+      <div class="col-8">
         <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item w-100" src="https://www.youtube.com/embed/nqiiAEyqgHI?start=9"
-            title="Law Uy A Filipino Ritual Dish in the Visayas | Filipino Culture • Pepper.ph" frameborder="0"
-            allowfullscreen></iframe>
+            title="Shrimp Laing instruction Video" frameborder="0" allowfullscreen></iframe>
         </div>
 
       </div>
     </div>
     <div class="row">
-      <div class="col-6">
+      <div class="col-12">
         <div class="row">
 
           <p>
@@ -444,42 +459,53 @@
         </div>
         <div class="row">
           <!--Google map-->
-          <div id="map-container" class="z-depth-1-half map-container" style="height: 500px">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1193264.7149377612!2d123.10550472502908!3d10.76690465963787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a8eba3f807567d%3A0x9a72fa2280f90e48!2sVisayas!5e0!3m2!1sen!2sph!4v1670177531461!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="col-7">
+            <div id="map-container" class="z-depth-1-half map-container" style="height: 500px">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1193264.7149377612!2d123.10550472502908!3d10.76690465963787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a8eba3f807567d%3A0x9a72fa2280f90e48!2sVisayas!5e0!3m2!1sen!2sph!4v1670177531461!5m2!1sen!2sph"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
           </div>
-        </div>
-      </div>
-      <!-- RECIPE STAR RATING -->
-      <div class="col-6">
-        <div class=" container recipe-container">
-          <div class="row star-row">
-            <div class="star-container2 ">
-              <div>
-                <h2 class="text-center my-3">Please leave us a recipe rating and message</h2>
-              </div>
-              <div class="post2">
-                <div class="edit2">EDIT</div>
-              </div>
-              <div class="star-widget2">
-                <input type="radio" name="rate" id="ratd-5">
-                <label for="ratd-5" class="fas fa-star"></label>
-                <input type="radio" name="rate" id="ratd-4">
-                <label for="ratd-4" class="fas fa-star"></label>
-                <input type="radio" name="rate" id="ratd-3">
-                <label for="ratd-3" class="fas fa-star"></label>
-                <input type="radio" name="rate" id="ratd-2">
-                <label for="ratd-2" class="fas fa-star"></label>
-                <input type="radio" name="rate" id="ratd-1">
-                <label for="ratd-1" class="fas fa-star"></label>
-                <form class="form forms2" action="#">
-                  <header></header>
-                  <div class="textarea text-area2">
-                    <textarea cols="30" placeholder="Describe your experience.."></textarea>
+
+
+
+          <!-- RECIPE STAR RATING -->
+          <div class="col-5">
+            <div class="container recipe-container">
+              <div class="row star-row">
+                <div class="star-container">
+                  <div>
+                    <h2 class="text-center my-3">Please leave us a recipe rating and message</h2>
                   </div>
-                  <div class="btn btns2">
-                    <button type="submit" name="star-submit1">Submit</button>
+                  <div>
+                    <div class="post">
+                      <div class="edit">EDIT</div>
+                    </div>
+                    <div class="star-widget">
+                      <input type="radio" name="rate" id="rate-5">
+                      <label for="rate-5" class="fas fa-star"></label>
+                      <input type="radio" name="rate" id="rate-4">
+                      <label for="rate-4" class="fas fa-star"></label>
+                      <input type="radio" name="rate" id="rate-3">
+                      <label for="rate-3" class="fas fa-star"></label>
+                      <input type="radio" name="rate" id="rate-2">
+                      <label for="rate-2" class="fas fa-star"></label>
+                      <input type="radio" name="rate" id="rate-1">
+                      <label for="rate-1" class="fas fa-star"></label>
+                      <form class="form forms" action="#">
+                        <header></header>
+                        <div class="textarea text-area">
+                          <textarea cols="30" placeholder="Describe your experience.."></textarea>
+                        </div>
+                        <div class="btn btns">
+                          <button type="submit" name="star-submit">Submit</button>
+                        </div>
+                      </form>
+                    </div>
                   </div>
-                </form>
+                </div>
               </div>
             </div>
           </div>
@@ -489,18 +515,19 @@
   </div>
 
 
+
+
   <!-- Footer -->
   <footer class="container-fluid mt-5 text-center">
-    <!-- Grid container -->
+
     <div class="container-fluid p-5">
-      <!-- Section: Social media -->
-      <section class="row row-cols-3 mb4">
+      <section class="row row-cols-3 mb-4">
         <div class="col-4">
           <h3 class="display-6">Ready to cook?</h3>
           <h4 class="py-2">Sign up for our weekly newsletters!
           </h4>
           <section>
-            <form class="p-3 rounded-3 bg-white">
+            <form class="p-3 rounded-3 newsletters">
               <!-- Name input -->
               <div class="form-outline my-3">
                 <input type="text" id="form5Example1" class="form-control" />

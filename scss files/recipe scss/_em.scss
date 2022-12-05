@@ -63,35 +63,41 @@
  .row {
   background-color: gray;
   padding: 5px;
-  margin: 5px auto;
-  text-align: center;
+  margin: 10px 20px;
  }
-  .col, .col-6{
+  .col, .col-8, .col-4, .col-7, .col-5{
     background-color: red;
-    padding: 5px;
-    margin: 5px auto;
+    padding: 10px;
+  }
+  h2,h3,h4,h5 {
+    text-align: center;
   }
 }
 
 .ingredients-container {
-  display: inline block;
-  background-color: orangered;
+  display: inline-block;
+  background-color: maroon;
+  padding: 5px;
 }
 
 
 // star rating alignment
 
 .star-container, .star-container1, .star-container2 {
-margin: auto;
+  padding: 5px;
 }
 
 .star-row {
   display: flex;
-  height: 100%;
-  width: 100%;
   justify-content: center;
   align-items: center;
   align-content: center;
+}
+
+.star-container2 {
+  background-color: pink;
+  padding: 10px;
+  border: 2px solid white;
 }
 
 

@@ -352,15 +352,106 @@
 
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
+    <!-- SAMPLE RATING FORM -->
+
+    <h4 class="text-center mt-5">Please leave a rating and comment:</h4>
+    <div class="container rating-form my-4">
+      <div class="row">
+        <div class="col">
+          <div class="post">
+            <div class="text">Thanks for rating us!</div>
+            <div class="edit">EDIT</div>
+          </div>
+          <div class="star-widget">
+            <input type="radio" name="rate" id="rate-5" />
+            <label for="rate-5" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-4" />
+            <label for="rate-4" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-3" />
+            <label for="rate-3" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-2" />
+            <label for="rate-2" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-1" />
+            <label for="rate-1" class="fas fa-star"></label>
+            <form class="form-inputs" action="#">
+              <header></header>
+              <div class="textarea">
+                <textarea
+                  cols="30"
+                  placeholder="What is your favorite recipe?"
+                ></textarea>
+              </div>
+              <div class="btn">
+                <button type="submit">Post</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
     <!-- Footer -->
     <footer
-      class="container-fluid mt-5 text-center text-white"
-      style="background-color: #121111"
+      class="container-fluid mt-5 text-center text-white bg-dark"
     >
       <!-- Grid container -->
-      <div class="container p-4">
+      <div class="container-fluid p-4">
         <!-- Section: Social media -->
-        <section class="mb-4">
+        <section class="row row-cols-3 mb-4">
+          <div class="col-4">
+            <h3 class="display-5">Ready to cook?</h3>
+            <h4 class="pt-2">Sign up for our weekly newsletters!
+            </h4>
+            <section>
+              <form class="border border-black p-3">
+                <!-- Name input -->
+                <div class="form-outline mb-4">
+                  <input type="text" id="form5Example1" class="form-control" />
+                  <label class="form-label" for="form5Example1">Name</label>
+                </div>
+              
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="form5Example2" class="form-control" />
+                  <label class="form-label" for="form5Example2">Email address</label>
+                </div>
+              
+                <!-- Checkbox -->
+                <div class="form-check d-flex justify-content-center mb-4">
+                  <input class="form-check-input me-2" type="checkbox" value="" id="form5Example3" checked />
+                  <label class="form-check-label" for="form5Example3">
+                    I have read and agree to the terms
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block mb-4">Subscribe</button>
+              </form>
+        </section>
+          </div>
+        
+          
+        <!-- Section: Social media -->
+          
+          <div class="col-4 d-flex justify-content-center"> 
+              <section>
+                <h4>Useful Links</h4>
+                <ul>
+                  
+                  <li><a href="fish.html">Fish Recipes</a> </li>
+                  <li><a href="beef.html">Beef Recipes</a> </li>
+                  <li><a href="pork.html">Pork Recipes</a> </li>
+                  <li><a href="fish.html">Chicken Recipes</a> </li>
+                  <li><a href="vegetable.html">Vegetables Recipes</a> </li>
+                  <li><a href="desserts.html">Desserts Recipes</a> </li>
+                  
+                </ul>
+              </section>
+            </div>
+            <div class="col-4">
+                <h4>LET’S BE FRIENDS!</h4>
           <!-- Facebook -->
           <a
             class="btn btn-primary btn-floating m-1"
@@ -419,59 +510,33 @@
             role="button"
             ><i class="fab fa-github"></i
           ></a>
+          <ul class="my-5">
+            <li><a href="About Us.html">About Us</a> </li>
+            <li><a href="Contactus.html">Contact Us</a> </li>
+            <li><a href="privacy.html"> Privacy Policy</h4></a></li>
+            <li><a href="terms.html">Terms and Condition</h4></a></li>
+          </ul>
+         
         </section>
-        <!-- Section: Social media -->
-
-        <!-- Section: Form -->
-        <section class="">
-          <form action="">
-            <!--Grid row-->
-            <div class="row d-flex justify-content-center">
-              <!--Grid column-->
-              <div class="col-auto">
-                <p class="pt-2">
-                  <strong>Sign up for our newsletter</strong>
-                </p>
-              </div>
-              <!--Grid column-->
-
-              <!--Grid column-->
-              <div class="col-md-5 col-12">
-                <!-- Email input -->
-                <div class="form-outline form-white mb-4">
-                  <input type="email" id="form5Example2" class="form-control" />
-                  <label class="form-label" for="form5Example2"
-                    >Email address</label
-                  >
-                </div>
-              </div>
-              <!--Grid column-->
-
-              <!--Grid column-->
-              <div class="col-auto">
-                <!-- Submit button -->
-                <button type="submit" class="btn btn-outline-light mb-4">
-                  Subscribe
-                </button>
-              </div>
-              <!--Grid column-->
-            </div>
-            <!--Grid row-->
-          </form>
-        </section>
-        <!-- Section: Form -->
+        
       </div>
-      <!-- Grid container -->
+    </div>
+      
+          
 
       <!-- Copyright -->
       <div
         class="text-center p-3"
-        style="background-color: rgba(78, 76, 76, 0.2)"
+        style="background-color: rgba(78, 76, 76, 0.3)"
       >
-        © 2022 Copyright:
-        <a class="text-white" href="index.html#home">KodegoPh Group 7</a>
+       &copy;2022 Copyright:
+        <a class="text-white" href="index.html"
+          >KodegoPh Group 7</a
+        >
       </div>
+      <!-- Copyright -->
     </footer>
+    <!-- Footer -->
 
     <!-- Javascript po ito -->
 

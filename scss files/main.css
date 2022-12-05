@@ -54,16 +54,13 @@ p {
   width: 100%;
   margin-bottom: 50px;
 }
-
 .recipe-container .row {
   padding: 5px;
   margin: 10px 20px;
 }
-
 .recipe-container .col, .recipe-container .col-8, .recipe-container .col-4, .recipe-container .col-7, .recipe-container .col-5 {
   padding: 10px;
 }
-
 .recipe-container h2, .recipe-container h3, .recipe-container h4, .recipe-container h5 {
   text-align: center;
 }
@@ -85,7 +82,7 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: textclip 2s linear infinite;
-  animation: textclip 2s linear infinite;
+          animation: textclip 2s linear infinite;
   display: inline-block;
   font-size: 120px;
 }
@@ -95,6 +92,7 @@ p {
     background-position: 200% center;
   }
 }
+
 @keyframes textclip {
   to {
     background-position: 200% center;
@@ -120,7 +118,7 @@ h2, h3, h4, h5 {
   height: 500px;
   width: 600px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   box-shadow: 18px 19px 20px 1px rgb(0, 0, 0);
   -webkit-box-shadow: 18px 19px 20px 1px rgb(0, 0, 0);
   -moz-box-shadow: 18px 19px 20px 1px rgb(0, 0, 0);
@@ -649,13 +647,11 @@ section li {
   padding: 5px auto;
   justify-self: center;
 }
-
 section a {
   color: pink;
   text-decoration: none;
   font-size: 17px;
 }
-
 section .logo {
   width: 100px;
   height: 100px;
@@ -713,6 +709,4 @@ section .logo {
     width: 100%;
   }
 }
-/**************SIR KENT CSS FILES*******************/ /**************SIR LARRY CSS FILES*******************/ /**************SIR KENT CSS FILES*******************/ /*# sourceMappingURL=main.css.map */
-
-/*# sourceMappingURL=main.css.map */
+/**************SIR KENT CSS FILES*******************/ /**************SIR LARRY CSS FILES*******************/ /**************SIR KENT CSS FILES*******************//*# sourceMappingURL=main.css.map */

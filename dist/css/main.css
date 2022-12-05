@@ -289,26 +289,24 @@ iframe {
 }
 
 .recipe-container {
-  background-color: green;
   height: 100%;
   width: 100%;
   margin-bottom: 50px;
 }
 .recipe-container .row {
-  background-color: gray;
   padding: 5px;
-  margin: 5px auto;
+  margin: 10px auto;
   text-align: center;
 }
-.recipe-container .col, .recipe-container .col-6 {
-  background-color: red;
-  padding: 5px;
+.recipe-container .col, .recipe-container .col-8, .recipe-container .col-4, .recipe-container .col-7, .recipe-container .col-5 {
+  padding: 10px;
   margin: 5px auto;
 }
 
 .ingredients-container {
   display: inline block;
   background-color: orangered;
+  align-items: left;
 }
 
 .star-container, .star-container1, .star-container2 {

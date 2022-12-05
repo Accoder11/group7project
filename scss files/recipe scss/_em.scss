@@ -56,19 +56,19 @@
 }
 
 .recipe-container {
-  background-color: green;
+  // background-color: green;
   height: 100%;
   width: 100%;
   margin-bottom: 50px;
  .row {
-  background-color: gray;
+  // background-color: gray;
   padding: 5px;
-  margin: 5px auto;
+  margin: 10px auto;
   text-align: center;
  }
-  .col, .col-6{
-    background-color: red;
-    padding: 5px;
+  .col, .col-8, .col-4, .col-7, .col-5{
+    // background-color: red;
+    padding: 10px;
     margin: 5px auto;
   }
 }
@@ -76,6 +76,7 @@
 .ingredients-container {
   display: inline block;
   background-color: orangered;
+  align-items: left;
 }
 
 

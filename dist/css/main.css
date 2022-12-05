@@ -10,10 +10,7 @@
 }
 
 body {
-  background-image: url(https://img.freepik.com/premium-photo/empty-top-marble-counter-table-kitchen-room_67155-1930.jpg?w=1380);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: black;
 }
 
 .recipe-container iframe {
@@ -46,28 +43,44 @@ body {
 }
 
 .recipe-container {
-  background-color: green;
   height: 100%;
   width: 100%;
-  margin-bottom: 50px;
+  margin: 40px auto;
+  padding: 5px;
 }
 .recipe-container .row {
-  background-color: gray;
   padding: 5px;
   margin: 10px 20px;
 }
 .recipe-container .col, .recipe-container .col-8, .recipe-container .col-4, .recipe-container .col-7, .recipe-container .col-5 {
-  background-color: red;
-  padding: 10px;
+  padding: 10px 20px;
+}
+.recipe-container h2 {
+  border-bottom: 1px double goldenrod;
 }
 .recipe-container h2, .recipe-container h3, .recipe-container h4, .recipe-container h5 {
   text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.recipe-row img {
+  border-radius: 50px;
+  height: 600px;
+  width: 400px;
+  margin: 20px auto;
+  box-shadow: 18px 19px 20px 1px rgb(0, 0, 0);
+  -webkit-box-shadow: 18px 19px 20px 1px rgb(0, 0, 0);
+  font-size: 15px;
+}
+.recipe-row li {
+  font-size: 22px;
 }
 
 .ingredients-container {
   display: inline-block;
-  background-color: maroon;
   padding: 5px;
+  margin-left: 20px;
 }
 
 /* FRONT PAGE TITLE ANIMATION */
@@ -116,6 +129,7 @@ h2, h3, h4, h5 {
 
 p {
   color: white;
+  font-size: 25px;
 }
 
 .title h2 {
@@ -138,15 +152,6 @@ p {
 
 .pinikpikan h4 {
   color: goldenrod;
-}
-
-.container div img {
-  border-radius: 50px;
-  height: 500px;
-  width: 500px;
-  box-shadow: 18px 19px 20px 1px rgb(0, 0, 0);
-  -webkit-box-shadow: 18px 19px 20px 1px rgb(0, 0, 0);
-  font-size: 15px;
 }
 
 .pinikpikan ul {
@@ -350,6 +355,14 @@ iframe {
 /**************EM CSS FILES*******************/
 .procedure-list {
   color: white;
+}
+
+.terms-container p {
+  font-size: 22px;
+}
+
+.privacy-container {
+  font-size: 22px;
 }
 
 .star-container, .star-container1, .star-container2 {

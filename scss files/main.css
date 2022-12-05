@@ -16,10 +16,6 @@ body {
   background-repeat: no-repeat;
 }
 
-p {
-  color: blanchedalmond;
-}
-
 .recipe-container iframe {
   height: 500px;
   width: 600px;
@@ -52,25 +48,52 @@ p {
 .recipe-container {
   height: 100%;
   width: 100%;
-  margin-bottom: 50px;
+  margin: 40px auto;
+  padding: 5px;
 }
 .recipe-container .row {
   padding: 5px;
   margin: 10px 20px;
 }
 .recipe-container .col, .recipe-container .col-8, .recipe-container .col-4, .recipe-container .col-7, .recipe-container .col-5 {
-  padding: 10px;
+  padding: 10px 20px;
+}
+.recipe-container h2 {
+  border-bottom: 1px double goldenrod;
 }
 .recipe-container h2, .recipe-container h3, .recipe-container h4, .recipe-container h5 {
   text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.recipe-row img {
+  border-radius: 50px;
+  height: 600px;
+  width: 400px;
+  margin: 20px auto;
+  box-shadow: 18px 19px 20px 1px rgb(0, 0, 0);
+  -webkit-box-shadow: 18px 19px 20px 1px rgb(0, 0, 0);
+  font-size: 15px;
+}
+.recipe-row li {
+  font-size: 22px;
 }
 
 .ingredients-container {
   display: inline-block;
   padding: 5px;
+  margin-left: 20px;
 }
 
 /* FRONT PAGE TITLE ANIMATION */
+.banner-image {
+  background-image: url(https://t4.ftcdn.net/jpg/04/43/37/07/360_F_443370711_sqHRnSIQovW6uyQ5ZwDpd4kjCG8Q6swm.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .banner {
   text-transform: uppercase;
   background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
@@ -101,27 +124,20 @@ p {
 h1 {
   text-align: center;
   color: burlywood;
-  border-bottom: 2mm ridge rgba(224, 214, 70, 0.925);
 }
 
 h2, h3, h4, h5 {
   color: goldenrod;
 }
 
+p {
+  color: burlywood;
+  font-size: 10px;
+}
+
 .title h2 {
   text-align: center;
   justify-content: center;
-}
-
-.container div img {
-  border-radius: 50px;
-  height: 500px;
-  width: 600px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  box-shadow: 18px 19px 20px 1px rgb(0, 0, 0);
-  -webkit-box-shadow: 18px 19px 20px 1px rgb(0, 0, 0);
-  -moz-box-shadow: 18px 19px 20px 1px rgb(0, 0, 0);
 }
 
 div ul iframe {
@@ -163,8 +179,8 @@ div ul iframe {
 }
 
 .hover-box1 .overlay, .hover-box2 .overlay, .hover-box3 .overlay, .hover-box4 .overlay, .hover-box5 .overlay, .hover-box6 .overlay, .image .overlay {
-  background: rgb(241, 244, 202);
-  background: linear-gradient(180deg, rgba(241, 244, 202, 0.7847514006) 0%, rgba(241, 241, 143, 0.5606617647) 100%);
+  background: rgb(227, 180, 180);
+  background: linear-gradient(180deg, rgba(227, 180, 180, 0.2) 16%, rgba(208, 125, 129, 0.2) 75%);
   border-radius: 120px;
 }
 
@@ -194,7 +210,11 @@ div ul iframe {
 
 /*box 6  box 6  box 6*/
 .hover-box6 {
-  background-image: url(https://i.pinimg.com/originals/ef/cd/19/efcd197afc93067cd594ac00b1132b32.jpg);
+  background-image: url(https://media.karousell.com/media/photos/products/2020/5/25/home_made_filipino_desserts_1590397580_57183258_progressive.jpg);
+}
+
+.hover-box6 {
+  background-image: url(https://www.chatelaine.com/wp-content/uploads/2021/07/Filipino-desserts_1280x960.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -211,8 +231,29 @@ div ul iframe {
   color: black;
 }
 
+.hover-box6 .overlay {
+  background: rgb(186, 227, 180);
+  background: linear-gradient(180deg, rgba(186, 227, 180, 0.7847514006) 16%, rgba(208, 207, 125, 0.5606617647) 75%);
+  border-radius: 120px;
+}
+
 .hover-box6:hover {
   transform: translateY(-20px);
+}
+
+.title h2 {
+  text-align: center;
+  justify-content: center;
+  border-bottom: #B88C46 solid 2px;
+}
+
+.container div img {
+  border-radius: 50px;
+  height: 500px;
+  width: 500px;
+  box-shadow: 18px 19px 20px 1px rgb(0, 0, 0);
+  -webkit-box-shadow: 18px 19px 20px 1px rgb(0, 0, 0);
+  -moz-box-shadow: 18px 19px 20px 1px rgb(0, 0, 0);
 }
 
 div ul {
@@ -236,6 +277,18 @@ iframe {
 }
 
 /**************EM CSS FILES*******************/
+.procedure-list {
+  color: white;
+}
+
+.terms-container p {
+  font-size: 22px;
+}
+
+.privacy-container {
+  font-size: 22px;
+}
+
 .star-container, .star-container1, .star-container2 {
   padding: 5px;
 }

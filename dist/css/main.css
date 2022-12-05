@@ -309,6 +309,7 @@ iframe {
 .ingredients-container {
   display: inline block;
   background-color: orangered;
+  align-items: left;
 }
 
 .star-container, .star-container1, .star-container2 {

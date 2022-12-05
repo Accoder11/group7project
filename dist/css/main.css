@@ -16,6 +16,88 @@ body {
   background-repeat: no-repeat;
 }
 
+.recipe-container iframe {
+  height: 500px;
+  width: 600px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.frontpage-container iframe {
+  height: 500px;
+  width: 600px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.recipe-container {
+  background-color: green;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.recipe-container .row {
+  background-color: gray;
+  padding: 5px;
+  margin: 10px 20px;
+}
+.recipe-container .col, .recipe-container .col-8, .recipe-container .col-4, .recipe-container .col-7, .recipe-container .col-5 {
+  background-color: red;
+  padding: 10px;
+}
+.recipe-container h2, .recipe-container h3, .recipe-container h4, .recipe-container h5 {
+  text-align: center;
+}
+
+.ingredients-container {
+  display: inline-block;
+  background-color: maroon;
+  padding: 5px;
+}
+
+/* FRONT PAGE TITLE ANIMATION */
+.banner {
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: textclip 2s linear infinite;
+          animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 120px;
+}
+
+@-webkit-keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
 h1 {
   text-align: center;
   color: burlywood;
@@ -259,60 +341,6 @@ iframe {
 }
 
 /**************EM CSS FILES*******************/
-.recipe-container iframe {
-  height: 500px;
-  width: 600px;
-  border-radius: 10px;
-  justify-content: center;
-}
-
-.frontpage-container iframe {
-  height: 500px;
-  width: 600px;
-  border-radius: 10px;
-  justify-content: center;
-}
-
-.map-container {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-}
-
-.map-container iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
-
-.recipe-container {
-  background-color: green;
-  height: 100%;
-  width: 100%;
-  margin-bottom: 50px;
-}
-.recipe-container .row {
-  background-color: gray;
-  padding: 5px;
-  margin: 10px 20px;
-}
-.recipe-container .col, .recipe-container .col-8, .recipe-container .col-4, .recipe-container .col-7, .recipe-container .col-5 {
-  background-color: red;
-  padding: 10px;
-}
-.recipe-container h2, .recipe-container h3, .recipe-container h4, .recipe-container h5 {
-  text-align: center;
-}
-
-.ingredients-container {
-  display: inline-block;
-  background-color: maroon;
-  padding: 5px;
-}
-
 .star-container, .star-container1, .star-container2 {
   padding: 5px;
 }
@@ -345,34 +373,6 @@ nav img {
   border-radius: 10px;
 }
 
-/* FRONT PAGE TITLE ANIMATION */
-.banner {
-  text-transform: uppercase;
-  background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-animation: textclip 2s linear infinite;
-          animation: textclip 2s linear infinite;
-  display: inline-block;
-  font-size: 120px;
-}
-
-@-webkit-keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
-}
-
-@keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
-}
 /* SAMPLE RATING FORM  Per Recipe pages*/
 .star-container {
   position: relative;

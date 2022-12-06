@@ -10,7 +10,31 @@
 }
 
 body {
-  background-color: black;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbjvMjFAW_Tk0HskQkFyRxrpWXFhNKKp8DQgX3u3I492QJ3NrBN9lMGTnFgSuJN_ms4o8&usqp=CAU);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.frontpage h2 {
+  border-bottom: 1px double goldenrod;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.carousel {
+  margin: 100px auto;
+  height: 1000px;
+  width: 1000px;
+  border-radius: 10px;
+  justify-content: center;
+}
+.carousel h2 {
+  margin: 100px auto 50px;
+  text-align: center;
 }
 
 .recipe-container iframe {
@@ -20,8 +44,13 @@ body {
   justify-content: center;
 }
 
-.frontpage-container iframe {
-  height: 500px;
+.frontpage-video-header {
+  margin: 100px auto 50px;
+}
+
+.frontpage-container-video iframe {
+  margin: 100px auto;
+  height: 700px;
   width: 600px;
   border-radius: 10px;
   justify-content: center;
@@ -43,16 +72,19 @@ body {
 }
 
 .recipe-container {
+  background-color: green;
   height: 100%;
   width: 100%;
   margin: 40px auto;
   padding: 5px;
 }
 .recipe-container .row {
+  background-color: gray;
   padding: 5px;
   margin: 10px 20px;
 }
 .recipe-container .col, .recipe-container .col-8, .recipe-container .col-4, .recipe-container .col-7, .recipe-container .col-5 {
+  background-color: red;
   padding: 10px 20px;
 }
 .recipe-container h2 {
@@ -84,16 +116,9 @@ body {
 }
 
 /* FRONT PAGE TITLE ANIMATION */
-.banner-image {
-  background-image: url(https://t4.ftcdn.net/jpg/04/43/37/07/360_F_443370711_sqHRnSIQovW6uyQ5ZwDpd4kjCG8Q6swm.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .banner {
   text-transform: uppercase;
-  background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
+  background-image: linear-gradient(-225deg, #F0EDEE 0%, #07393C 29%, goldenrod 67%, #90DDF0 100%);
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
@@ -139,15 +164,9 @@ p {
 }
 
 .pinikpikan {
-  justify-content: space-between;
-  padding: 40px;
-  border-bottom: 2px #B88C46 solid;
-  text-align: center;
-  justify-content: center;
-}
-
-.pinikpikan h3 {
-  color: goldenrod;
+  box-shadow: 18px 19px 20px 1px rgb(0, 0, 0);
+  -webkit-box-shadow: 18px 19px 20px 1px rgb(0, 0, 0);
+  -moz-box-shadow: 18px 19px 20px 1px rgb(0, 0, 0);
 }
 
 .pinikpikan h4 {
@@ -353,6 +372,15 @@ iframe {
 }
 
 /**************EM CSS FILES*******************/
+html {
+  scroll-behavior: smooth;
+}
+
+.arrow {
+  margin-top: 30px;
+  width: 120px;
+}
+
 .procedure-list {
   color: white;
 }
@@ -386,7 +414,7 @@ iframe {
   margin-top: 100px;
 }
 
-.title h1:hover {
+.title h1:hover, .arrow {
   color: fff;
   text-shadow: 0 0 10px black, 0 0 20px black, 0 0 40px goldenrod;
 }

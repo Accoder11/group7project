@@ -41,7 +41,9 @@ body {
 }
 
 .frontpage h2 {
-    border-bottom: 1px double goldenrod;
+    // border-bottom: 1px double goldenrod;
+    border-bottom: 3mm ridge rgba(211, 220, 50, .6);
+
     width: 50%;
     margin: auto;
     text-align: center;
@@ -50,7 +52,7 @@ body {
 }
 
 .carousel {
-    margin:100px auto;
+    margin:100px auto 10px;
     height: 1000px;
     width: 1000px;
     border-radius: 10px;
@@ -59,6 +61,12 @@ body {
     h2 {
         margin: 100px auto 50px;
         text-align: center;
+    }
+}
+
+.frontparagraph {
+    p{
+        color: black;
     }
 }
 
@@ -240,7 +248,7 @@ box-shadow: 1px 4px 41px 12px rgba(0,0,0,0.51);
 
 /*boxes position  boxes position  boxes position*/
 
-.hover-box1, .hover-box2, .hover-box3, .hover-box4, .hover-box5, .hover-box6 .image {
+.hover-box1, .hover-box2, .hover-box3, .hover-box4, .hover-box5, .hover-box6, .image {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -302,22 +310,9 @@ box-shadow: 1px 4px 41px 12px rgba(0,0,0,0.51);
 /*box 6  box 6  box 6*/
 
 .hover-box6 {
-    background-image: url(https://media.karousell.com/media/photos/products/2020/5/25/home_made_filipino_desserts_1590397580_57183258_progressive.jpg); 
-}
+    background-image: url(https://media.karousell.com/media/photos/products/2020/5/25/home_made_filipino_desserts_1590397580_57183258_progressive.jpg
 
-.hover-box6 { 
-
-    background-image: url(https://www.chatelaine.com/wp-content/uploads/2021/07/Filipino-desserts_1280x960.jpg);
-   
-   
-}
-
-.hover-box6 .content {
-
-    min-height: 400px;
-    padding: 40px;
-    color:black;
-
+    ); 
 }
 
 

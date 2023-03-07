@@ -32,13 +32,13 @@
 
 .frontpage h2 {
     // border-bottom: 1px double goldenrod;
-    border-bottom: 3mm ridge rgba(211, 220, 50, .6);
+    border-bottom: 3mm ridge goldenrod;
 
     width: 50%;
-    margin: auto;
+    margin: 50px auto;
     text-align: center;
-    font-size: 40px;
-    margin-bottom: 20px;
+    font-size: 5rem;
+    color: white;
 }
 
 .carousel {
@@ -148,18 +148,9 @@
 // from chicken.css file
 // FONT COLOR, FONT SIZE, FONT STYLE
 
-h1 {
-    text-align: center;
-    color: burlywood;
-}
 
 h2, h3, h4, h5{
-    color: goldenrod;
-}
-
-p{
-    color: white;
-    font-size: 20px;
+    color: black;
 }
 
 .title h2 {
@@ -216,18 +207,14 @@ box-shadow: 1px 4px 41px 12px rgba(0,0,0,0.51);
 
 .hover-box1 .content,.hover-box2 .content,.hover-box3 .content,.hover-box4 .content,.hover-box5 .content,.hover-box6 .content, .image .content {
 
-    min-height: 400px;
+    min-height: 300px;
     padding: 40px;
     color:black;
-
 }
 
 .hover-box1 .overlay, .hover-box2 .overlay, .hover-box3 .overlay,.hover-box4 .overlay, .hover-box5 .overlay, .hover-box6 .overlay, .image .overlay{
-    // background: rgb(227,180,180);
-    // background: linear-gradient(180deg, rgba(227,180,180,0.2) 16%, rgba(208,125,129,0.2) 75%);
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,0.7) 0%, rgba(219,209,209,0.7) 0%, rgba(233,173,173,0.7) 100%);
-
+    background: linear-gradient(180deg, rgba(255,255,255,0.2) 0%, rgba(219,209,209,0.6) 0%, rgba(233,173,173,0.1) 100%);
     border-radius: 120px;
 
 }
@@ -266,12 +253,6 @@ box-shadow: 1px 4px 41px 12px rgba(0,0,0,0.51);
     ); 
 }
 
-
-
-
-
-
-
 .title h2 {
 
     text-align: center;
@@ -292,19 +273,19 @@ box-shadow: 1px 4px 41px 12px rgba(0,0,0,0.51);
    
 
 
-.container  div img {
+// .container  div img {
 
-    border-radius: 50px;
-    height: 500px;
-    width: 500px;
+//     border-radius: 50px;
+//     height: 500px;
+//     width: 500px;
     
 
-    box-shadow: 18px 19px 20px 1px rgba(0,0,0,1);
-    -webkit-box-shadow: 18px 19px 20px 1px rgba(0,0,0,1);
-    -moz-box-shadow: 18px 19px 20px 1px rgba(0,0,0,1);
+//     box-shadow: 18px 19px 20px 1px rgba(0,0,0,1);
+//     -webkit-box-shadow: 18px 19px 20px 1px rgba(0,0,0,1);
+//     -moz-box-shadow: 18px 19px 20px 1px rgba(0,0,0,1);
     
 
-}
+// }
 
 
 

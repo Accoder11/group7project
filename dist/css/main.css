@@ -9,17 +9,13 @@
   font-family: "Arvo", serif;
 }
 
-body {
-  background-color: black;
-}
-
 .frontpage h2 {
-  border-bottom: 3mm ridge rgba(211, 220, 50, 0.6);
+  border-bottom: 3mm ridge goldenrod;
   width: 50%;
-  margin: auto;
+  margin: 50px auto;
   text-align: center;
-  font-size: 40px;
-  margin-bottom: 20px;
+  font-size: 5rem;
+  color: white;
 }
 
 .carousel {
@@ -33,6 +29,10 @@ body {
 .carousel h2 {
   margin: 100px auto 50px;
   text-align: center;
+}
+
+.frontparagraph p {
+  color: black;
 }
 
 .map-container {
@@ -101,19 +101,13 @@ body {
 }
 
 /* FRONT PAGE TITLE ANIMATION */
-
-h1 {
-  text-align: center;
-  color: burlywood;
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
-
 h2, h3, h4, h5 {
-  color: goldenrod;
-}
-
-p {
-  color: white;
-  font-size: 20px;
+  color: black;
 }
 
 .title h2 {
@@ -154,14 +148,14 @@ div ul iframe {
 }
 
 .hover-box1 .content, .hover-box2 .content, .hover-box3 .content, .hover-box4 .content, .hover-box5 .content, .hover-box6 .content, .image .content {
-  min-height: 400px;
+  min-height: 300px;
   padding: 40px;
   color: black;
 }
 
 .hover-box1 .overlay, .hover-box2 .overlay, .hover-box3 .overlay, .hover-box4 .overlay, .hover-box5 .overlay, .hover-box6 .overlay, .image .overlay {
   background: rgb(255, 255, 255);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(219, 209, 209, 0.7) 0%, rgba(233, 173, 173, 0.7) 100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(219, 209, 209, 0.6) 0%, rgba(233, 173, 173, 0.1) 100%);
   border-radius: 120px;
 }
 
@@ -200,15 +194,6 @@ div ul iframe {
   border-bottom: 2mm ridge rgba(211, 220, 50, 0.6);
 }
 
-.container div img {
-  border-radius: 50px;
-  height: 500px;
-  width: 500px;
-  box-shadow: 18px 19px 20px 1px rgb(0, 0, 0);
-  -webkit-box-shadow: 18px 19px 20px 1px rgb(0, 0, 0);
-  -moz-box-shadow: 18px 19px 20px 1px rgb(0, 0, 0);
-}
-
 div ul {
   color: #fff;
   margin-top: 20px;
@@ -230,13 +215,101 @@ iframe {
 }
 
 /**************EM CSS FILES*******************/
+body {
+  background-color: goldenrod;
+}
+
+/* video banner */
+#video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* set the height of the video banner */
+}
+
+#myVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover; /* make the video fill the container */
+}
+
+#front-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+#front-content h1 {
+  font-size: 5.5rem;
+  color: goldenrod;
+  font-weight: 700;
+}
+
+.blog-title {
+  background-color: rgba(255, 255, 255, 0.858);
+  font-weight: 500;
+  margin: auto;
+  padding: 10px;
+}
+
+.flex-grow-1 {
+  color: white;
+  margin: 15px auto;
+}
+
+.card-text {
+  color: black;
+  font-weight: 500;
+}
+
+.blog-intro {
+  margin: 10px auto;
+  width: 600px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.home-btn {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+}
+
+.nav-link:hover {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+}
+
+.recipe-container p {
+  color: black;
+  margin: 10px auto;
+  padding: 10px;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
-.arrow {
-  margin-top: 30px;
-  width: 100px;
+.home-logo {
+  max-width: 20%;
 }
 
 .procedure-list {
@@ -255,11 +328,21 @@ html {
   padding: 10px 20px;
 }
 
+.star-container h2, .star-container1 h2, .star-container2 h2 {
+  color: white;
+  font-size: 1.9rem;
+}
+
 .star-row {
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
+}
+
+h1 {
+  color: black;
+  font-weight: bold;
 }
 
 .title h1 {
@@ -269,11 +352,6 @@ html {
 .title h1:hover, .arrow {
   color: fff;
   text-shadow: 0 0 10px black, 0 0 20px black, 0 0 40px goldenrod;
-}
-
-nav img {
-  width: 50px;
-  height: 50px;
 }
 
 /* SAMPLE RATING FORM  Per Recipe pages*/
@@ -636,14 +714,6 @@ button:hover, a:hover {
   opacity: 0.7;
 }
 
-/* LOGO TOOLS IN ABOUT US LOGO TOOLS IN ABOUT US LOGO TOOLS IN ABOUT US */
-.logo {
-  width: 200px;
-  height: 180px;
-  border: 1px solid black;
-  border-radius: 100px;
-}
-
 /*FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER*/
 footer {
   background-color: black;
@@ -665,6 +735,10 @@ section .logo {
   margin: 8px;
   border: 1px solid black;
   border-radius: 100px;
+}
+
+footer h3, footer h4 {
+  color: goldenrod;
 }
 
 .newsletters {

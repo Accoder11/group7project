@@ -30,7 +30,6 @@
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
       rel="stylesheet"
     />
-    <!-- MDB -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css"
       rel="stylesheet"
@@ -59,7 +58,7 @@
           <div class="mx-auto"></div>
           <ul class="navbar-nav  mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html"
+              <a class="nav-link" aria-current="page" href="./index.html"
                 >Home</a
               >
             </li>
@@ -118,11 +117,12 @@
         <source src="../images/video2.mp4" type="video/mp4" />
       </video>
       <div id="front-content">
-        <h1>HAK foodblog</h1>
+        <h1>HAK Food Blog</h1>
+        <a href="#categories" class="btn btn-warning btn-lg home-btn">Recipes</a>
+
         <p class="blog-intro">
           Welcome to our recipe blog website! Our goal is to provide you with a wide variety of delicious and easy-to-follow recipes that you can enjoy with your family and friends. Whether you're a seasoned cook or a beginner in the kitchen, we have something for everyone.
         </p>
-        <button id="myBtn">Recipes</button>
       </div>
     </div>
     
@@ -132,14 +132,16 @@
     <div class="main">
       <div class="title text-center p-5 col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto
       fw-bold">
-       <h1 class="display-2 bannerArrow" id="categories">Best Filipino Recipes</h1></div></div>
+       <h1 class="display-2 bannerArrow" id="categories">Best Filipino Recipes</h1>
+      </div>
+    </div>
 
-<div class="frontpage">
+    <div class="frontpage">
       <h2> Categories</h2>
     </div>
 
     <!-- div starts here -->
-    <div class="container my-5 py-5">
+    <div class="container border rounded bg-black my-5 py-5 g-5">
       <div class="row justify-content-center">
         <div class="col-4 col-lg-4 col-md-10">
           <div class="hover-box1">
@@ -295,65 +297,199 @@
               </div>
             </a>
           </div>
-          <h2 class="text-center flex-grow-1">DESSERT</h2>
+          <h2 class="text-center flex-grow-1">DESSERTS</h2>
         </div>
-      
-            <div class="container frontpage-video-header text-center">
-              <div class="row">
-                <div class="col-xl-9">
-                    <h2>Sample Recipe Video</h2>
-                </div>
-
-                 <!-- RESPONSIVE VIDEO -->
-                 
-                 <div class="col frontpage-container-video">
-                  <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item w-100" src="https://www.youtube.com/embed/WWmu6dndxAM" title="Restaurant promotion video; Arcadian Cafe." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
       </div>
-
-
-            <!-- carousel -->
-           <div class="container street-foods carousel">
-
-                  <h2>Featuring soon!(Street Foods)</h2>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="http://3.bp.blogspot.com/-J0-WZI_1gUk/TeUtQVnnN5I/AAAAAAAAAC4/lX9XsMTOUT8/s1600/stree.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src=https://www.lutongpinoyrecipe.com/wp-content/uploads/2021/01/lutong-pinoy-easy-beef-paers-1200x900.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="https://tz-mag-media.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2020/10/30170228/14.jpg" class="d-block w-100 " alt="...">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Popular Street Foods</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Popular Street Foods</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Popular Street Foods</span>
-              </button>
-            </div>
-           </div>
     </div>
-      </div>
     </div>
   </div>
-    
-          <!--  -->
+      
+           <!-- Sample Featured Post -->
 
-          <!-- carousel ratings -->
+           <div class="frontpage my-5">
+            <h2> Featured Post</h2>
+          </div>
+
+          <div class="container border rounded p-3 bg-black">
+           <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://www.knorr.com/content/dam/unilever/knorr_world/philippines/photography_and_pictures/pinoy-ulam-list-adobo-85776428-jpg.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pork Adobo</h5>
+                  <p class="text-muted">Category: Pork</p>
+                  <p class="card-text">I always prepare my basic pork adobo recipe whenever my husband and I travel to visit our coffee farm 10 hours away. As you might know, Adobo keeps well and is best served...</p>
+                  <a href="#" class="btn btn-primary">Continue Reading...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://hips.hearstapps.com/del.h-cdn.co/assets/18/11/2048x1152/hd-aspect-1520972774-pork-chops-horizontal.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Quick and Easy Pan Fried Pork Chops</h5>
+                  <p class="text-muted">Category: Pork</p>
+                  <p class="card-text">A lot of people credit chicken as the most versatile, and easiest kind of meat to cook with. And while it’s true that the white meat tastes ...</p>
+                  <a href="#" class="btn btn-primary">Continue Reading...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://i.ytimg.com/vi/VBD6I_NX0z0/maxresdefault.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pork Bistek Recipe</h5>
+                  <p class="text-muted">Category: Pork</p>
+                  <p class="card-text">If you know how to cook beef steak or bistek tagalog, then you can easily cook this pork steak recipe. This is a lot easier to cook since pork has a shorter...</p>
+                  <a href="#" class="btn btn-primary">Continue Reading...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://www.lutongbahayrecipe.com/wp-content/uploads/2021/10/lutong-bahay-tinolang-manok-640x381.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tinolang Manok (Chicken Ginger Stew)</h5>
+                  <p class="text-muted">Category: Chicken</p>
+                  <p class="card-text">Tinolang manok or chicken ginger stew is a clear chicken soup dish that almost all Filipino families cook and serve...</p>
+                  <a href="#" class="btn btn-primary">Continue Reading...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://www.lutongbahayrecipe.com/wp-content/uploads/2021/10/Creamy-Sweet-Chicken-Adobo-678x381.png" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Creamy Sweet Chicken Adobo Recipe</h5>
+                  <p class="text-muted">Category: Chicken</p>
+                  <p class="card-text">Level up your adobo game with this newly discovered recipe. Chicken adobo made more special with Angel...</p>
+                  <a href="#" class="btn btn-primary">Continue Reading...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://www.lutongbahayrecipe.com/wp-content/uploads/2022/07/chicken-bicol-express-678x381.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chicken Bicol Express</h5>
+                  <p class="text-muted">Category: Chicken</p>
+                  <p class="card-text">Chicken Bicol Express is a filipino stew dish that’s cooked in coconut milk, ginger, garlic, and onion. The shrimp...</p>
+                  <a href="#" class="btn btn-primary">Continue Reading...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://www.lutongbahayrecipe.com/wp-content/uploads/2020/08/braised-beef-shoulder-lutong-bahay-678x381.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Braised Beef Shoulder</h5>
+                  <p class="text-muted">Category: Beef</p>
+                  <p class="card-text">This juicy braised beef recipe is so tender and flavorful. The long-braising tenderizes this inexpensive cut of meat and...</p>
+                  <a href="#" class="btn btn-primary">Continue Reading...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://www.lutongbahayrecipe.com/wp-content/uploads/2021/02/lutong-bahay-recipe-beef-tocino-640x381.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Easy Beef Tocino</h5>
+                  <p class="text-muted">Category: Beef</p>
+                  <p class="card-text">Beef Tocino – Tocino is a popular breakfast recipe along with fried egg. It is a sweetened cured pork or beef or chicken...</p>
+                  <a href="#" class="btn btn-primary">Continue Reading...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://www.lutongbahayrecipe.com/wp-content/uploads/2021/02/lutong-bahay-homemade-beef-tapa-640x381.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Homemade Beef Tapa</h5>
+                  <p class="text-muted">Category: Beef</p>
+                  <p class="card-text">Tapsilog is our favorite breakfast. Tapsilog is every Filipinos’ favorite. The secret to Pinoys’ beef tapa is the freshness of the meat ...</p>
+                  <a href="#" class="btn btn-primary">Continue Reading...</a>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <!-- Latest Blogs -->
+
+          <div class="frontpage">
+            <h2> Blog Posts</h2>
+          </div>
+
+          <div class="container border rounded p-3 bg-black">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+            <div class="card h-100 text-bg-light">
+            <img src="https://www.lutongbahayrecipe.com/wp-content/uploads/2022/12/avel-chuklanov-sedJnjrUMM8-unsplash1-1024x683.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h3 class="card-title blog-title">What Makes Filipino Food So Special</h3>
+              <p class="card-text"><small>Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 text-bg-light">
+              <img src="https://www.lutongbahayrecipe.com/wp-content/uploads/2023/02/www-zanda-photography-RBdE3jv5y68-unsplash-1-1024x683.jpg" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h3 class="card-title blog-title">Why you need to start backyard farming: the benefits of growing your own organic vegetables</h3>
+                <p class="card-text"><small>Last updated 3 mins ago</small></p>
+              </div>
+          </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 text-bg-light">
+              <img src="https://www.lutongbahayrecipe.com/wp-content/uploads/2021/02/lutong-bahay-munggo-on-fridays-2.jpg" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h3 class="card-title blog-title">Fascinating Facts on Why Munggo is Usually Served on Friday</h3>
+                <p class="card-text"><small>Last updated 3 mins ago</small></p>
+              </div>
+          </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 text-bg-light">
+              <img src="https://i0.wp.com/www.angsarap.net/wp-content/uploads/2015/11/Bagnet-Wide-2.jpg?resize=720%2C480&ssl=1" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h3 class="card-title blog-title">Best Places for Filipino Cuisine: Where to Find It Today</h3>
+                <p class="card-text"><small>Last updated 3 mins ago</small></p>
+              </div>
+          </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 text-bg-light">
+              <img src="https://www.seriouseats.com/thmb/sNOqOuOaiILj05PSuunyT3FuyPY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Filipino-Features-Soups-and-Stews-1e81ba12ce10481caf3ff58981c347ab.jpg" class="card-img img-fluid" alt="...">
+              <div class="card-img-overlay">
+                <h3 class="card-title blog-title">5 Interesting Secrets that Makes Filipino Food Wonderful</h3>
+                <p class="card-text"><small>Last updated 3 mins ago</small></p>
+              </div>
+          </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 text-bg-light">
+              <img src="https://img-global.cpcdn.com/recipes/7ab352c299aa677e/680x482cq70/green-beans-in-spicy-coconut-milk-filipino-gising-gising-recipe-main-photo.jpg" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h3 class="card-title blog-title">The Best Herbs and Spices of the Philippines and Where to Find Them</h3>
+                <p class="card-text"><small>Last updated 3 mins ago</small></p>
+              </div>
+          </div>
+          </div>
+            </div>
+          </div>
+      
+         
+
+
+
+
+           
 
 
 
@@ -500,15 +636,11 @@
         
 
     <!-- Copyright -->
-    <div
-      class="text-center p-3"
-      style="background-color: rgba(78, 76, 76, 0.3)"
-    >
-     &copy;2022 Copyright:
-      <a class="text-white" href="index.html"
-        >Group7@kodegoPh.com</a
-      >
+    <div class="text-center p-3 bg-black">
+      &copy;<script>document.write(new Date().getFullYear())</script> Copyright:
+      <a class="text-white" href="index.html">Group7@KodeGoprojectone</a>
     </div>
+    
     <!-- Copyright -->
   </footer>
   <!-- Footer -->
@@ -520,7 +652,6 @@
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"
   ></script>
-  <!-- MDB -->
   <script
     type="text/javascript"
     src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"

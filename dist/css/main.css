@@ -543,9 +543,9 @@ button[name=star-submit] {
 }
 
 .star-widget1 label, .star-widget2 label {
-  font-size: 40px;
+  font-size: 30px;
   color: #444;
-  padding: 10px;
+  padding: 5px;
   float: right;
   transition: all 0.2s ease;
 }
